@@ -1,0 +1,547 @@
+335	k__Protista; p__Amoebozoa; c__incertae sedis; o__; f__; g__; s__
+440	k__Animalia; p__; c__; o__; f__; g__; s__
+58	k__Animalia; p__Acanthocephala; c__Palaeacanthocephala; o__Echinorhynchida; f__Pomphorhynchidae; g__Pomphorhynchus; s__Pomphorhynchus tereticollis
+60	k__Animalia; p__Annelida; c__Clitellata; o__Haplotaxida; f__Lumbricidae; g__Allolobophora; s__Allolobophora chlorotica
+219	k__Animalia; p__Annelida; c__Polychaeta; o__Phyllodocida; f__Nereididae; g__Neanthes; s__Neanthes acuminata
+220	k__Animalia; p__Annelida; c__Polychaeta; o__Terebellida; f__Cirratulidae; g__Timarete; s__Timarete punctata
+424	k__Animalia; p__Arthropoda; c__; o__; f__; g__; s__
+425	k__Animalia; p__Arthropoda; c__; o__; f__; g__; s__
+429	k__Animalia; p__Arthropoda; c__; o__; f__; g__; s__
+432	k__Animalia; p__Arthropoda; c__; o__; f__; g__; s__
+439	k__Animalia; p__Arthropoda; c__; o__; f__; g__; s__
+448	k__Animalia; p__Arthropoda; c__; o__; f__; g__; s__
+537	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__; g__; s__
+539	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__; g__; s__
+78	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Araneidae; g__Araneus; s__Araneus recherchensis
+397	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Araneidae; g__Caerostris; s__Caerostris extrusa
+409	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Araneidae; g__Poltys; s__Poltys illepidus
+419	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Araneidae; g__Poltys; s__Poltys illepidus
+538	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Araneidae; g__Poltys; s__Poltys illepidus
+207	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Corinnidae; g__; s__
+295	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Cheiracanthiidae; g__Cheiracanthium; s__
+501	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Desidae; g__Badumna; s__Badumna longinqua
+208	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Dysderidae; g__Dysdera; s__Dysdera crocata
+368	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Hahniidae; g__Cicurina; s__
+30	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Idiopidae; g__Arbanitis; s__Arbanitis longipes
+79	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Linyphiidae; g__Grammonota; s__Grammonota angusta
+482	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Linyphiidae; g__Ceraticelus; s__Ceraticelus fissiceps
+80	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Lycosidae; g__Pardosa; s__Pardosa mackenziana
+398	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Philodromidae; g__Philodromus; s__Philodromus cespitum
+483	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Mimetidae; g__Mimetus; s__Mimetus notius
+379	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Pimoidae; g__Pimoa; s__
+209	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Salticidae; g__Hasarius; s__Hasarius adansoni
+210	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Scytodidae; g__Scytodes; s__Scytodes longipes
+364	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Selenopidae; g__Selenops; s__Selenops micropalpus
+211	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Sparassidae; g__Heteropoda; s__Heteropoda venatoria
+95	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Tetragnathidae; g__Pachygnatha; s__Pachygnatha clercki
+329	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Theridiidae; g__Canalidion; s__Canalidion montanum 
+202	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Theridiidae; g__Chrysso; s__Chrysso nordica
+418	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Theridiidae; g__Cryptachaea; s__Cryptachaea blattea
+462	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Theridiidae; g__Cryptachaea; s__Cryptachaea blattea
+531	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Theridiidae; g__Cryptachaea; s__Cryptachaea blattea
+358	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Theridiidae; g__Faiditus; s__
+17	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Theridiidae; g__Theridion; s__Theridion grallator
+369	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Thomisidae; g__Misumenops; s__Misumenops melloleitaoi
+393	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Thomisidae; g__Sidymella; s__Sidymella angularis
+212	k__Animalia; p__Arthropoda; c__Arachnida; o__Araneae; f__Uloboridae; g__Zosis; s__Zosis geniculata
+353	k__Animalia; p__Arthropoda; c__Arachnida; o__Trombidiformes; f__Eriophyidae; g__Aculus; s__Aculus crassulae
+503	k__Animalia; p__Arthropoda; c__Arachnida; o__Trombidiformes; f__Tarsonemidae; g__; s__
+333	k__Animalia; p__Arthropoda; c__Arachnida; o__Oribatida; f__Carabodidae; g__Carabodes; s__
+81	k__Animalia; p__Arthropoda; c__Arachnida; o__Mesostigmata; f__Phytoseiidae; g__Proprioseiopsis; s__Proprioseiopsis messor
+37	k__Animalia; p__Arthropoda; c__Arachnida; o__Sarcoptiformes; f__Achipteriidae; g__Anachipteria; s__
+332	k__Animalia; p__Arthropoda; c__Arachnida; o__Sarcoptiformes; f__Oribatellidae; g__Oribatella; s__
+24	k__Animalia; p__Arthropoda; c__Arachnida; o__Trombidiformes; f__Trombiculidae; g__Ascoschoengastia; s__Ascoschoengastia indica
+213	k__Animalia; p__Arthropoda; c__Arachnida; o__Scorpiones; f__Buthidae; g__Isometrus; s__Isometrus maculatus
+82	k__Animalia; p__Arthropoda; c__Branchiopoda; o__Anostraca; f__Branchinectidae; g__Branchinecta; s__Branchinecta paludosa
+303	k__Animalia; p__Arthropoda; c__Branchiopoda; o__Spinicaudata; f__Cyzicidae; g__Caenestheriella; s__Caenestheriella setosa
+83	k__Animalia; p__Arthropoda; c__Cephalocarida; o__Brachypoda; f__Hutchinsoniellidae; g__Hutchinsoniella; s__Hutchinsoniella macracantha
+84	k__Animalia; p__Arthropoda; c__Chilopoda; o__Scolopendromorpha; f__Scolopendridae; g__Scolopendra; s__Scolopendra polymorpha
+85	k__Animalia; p__Arthropoda; c__Diplopoda; o__Julida; f__Julidae; g__Cylindroiulus; s__Cylindroiulus caeruleocinctus
+86	k__Animalia; p__Arthropoda; c__Diplura; o__Rhabdura; f__Campodeidae; g__Campodea; s__Campodea fragilis
+23	k__Animalia; p__Arthropoda; c__Entognatha; o__Collembola; f__Isotomidae; g__Folsomia; s__Folsomia quadrioculata
+19	k__Animalia; p__Arthropoda; c__Entognatha; o__Collembola; f__Tomoceridae; g__Plutomurus; s__
+87	k__Animalia; p__Arthropoda; c__Entognatha; o__Symphypleona; f__Sminthuridae; g__; s__
+88	k__Animalia; p__Arthropoda; c__Hexanauplia; o__Calanoida; f__Temoridae; g__Eurytemora; s__Eurytemora affinis
+405	k__Animalia; p__Arthropoda; c__Hexanauplia; o__Harpacticoida; f__Harpacticidae; g__Tigriopus; s__
+89	k__Animalia; p__Arthropoda; c__Ichthyostraca; o__Arguloida; f__Argulidae; g__Argulus; s__Argulus funduli
+450	k__Animalia; p__Arthropoda; c__Insecta; o__; f__; g__; s__
+460	k__Animalia; p__Arthropoda; c__Insecta; o__; f__; g__; s__
+465	k__Animalia; p__Arthropoda; c__Insecta; o__; f__; g__; s__
+517	k__Animalia; p__Arthropoda; c__Insecta; o__; f__; g__; s__
+520	k__Animalia; p__Arthropoda; c__Insecta; o__; f__; g__; s__
+533	k__Animalia; p__Arthropoda; c__Insecta; o__; f__; g__; s__
+534	k__Animalia; p__Arthropoda; c__Insecta; o__; f__; g__; s__
+535	k__Animalia; p__Arthropoda; c__Insecta; o__; f__; g__; s__
+90	k__Animalia; p__Arthropoda; c__Insecta; o__Archaeognatha; f__Machilidae; g__Pedetontus; s__
+91	k__Animalia; p__Arthropoda; c__Insecta; o__Blattodea; f__Blattidae; g__Anamesia; s__Anamesia lambii
+92	k__Animalia; p__Arthropoda; c__Insecta; o__Blattodea; f__Rhinotermitidae; g__Heterotermes; s__Heterotermes tenuis
+230	k__Animalia; p__Arthropoda; c__Insecta; o__Blattodea; f__Ectobiidae; g__Supella; s__Supella longipalpa
+413	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Carabidae; g__Amara; s__Amara quenseli
+198	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Carabidae; g__Pterostichus; s__Pterostichus adstrictus
+270	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Carabidae; g__Blackburnia; s__Blackburnia hawaiiensis
+491	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Carabidae; g__Mecyclothorax; s__Mecyclothorax konanus
+197	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Cerambycidae; g__Phytoecia; s__Phytoecia coerulescens
+434	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Chrysomelidae; g__Platyxantha; s__
+201	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Chrysomelidae; g__; s__
+347	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Chrysomelidae; g__; s__
+222	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Chrysomelidae; g__Mimosestes; s__Mimosestes insularis
+386	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Coccinellidae; g__; s__
+12	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Coccinellidae; g__Henosepilachna; s__Henosepilachna enneasticta
+271	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Coccinellidae; g__Coccinella; s__Coccinella transversalis
+200	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Curculionidae; g__; s__
+195	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Dytiscidae; g__Colymbetes; s__Colymbetes dolabratus
+196	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Elateridae; g__Gambrinus; s__Gambrinus confusus
+530	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Elateridae; g__Abelater; s__Abelater satoi
+43	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Lampyridae; g__Pteroptyx; s__Pteroptyx valida
+374	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Histeridae; g__; s__
+45	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Scarabaeidae; g__Anomala; s__Anomala chamaeleon
+199	k__Animalia; p__Arthropoda; c__Insecta; o__Coleoptera; f__Staphylinidae; g__; s__
+96	k__Animalia; p__Arthropoda; c__Insecta; o__Dermaptera; f__Forficulidae; g__Forficula; s__Forficula auricularia
+359	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__; g__; s__
+435	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__; g__; s__
+441	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__; g__; s__
+496	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__; g__; s__
+512	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__; g__; s__
+515	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__; g__; s__
+527	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__; g__; s__
+532	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__; g__; s__
+194	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Cecidomyiidae; g__; s__
+370	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Cecidomyiidae; g__; s__
+505	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Cecidomyiidae; g__; s__
+376	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Cecidomyiidae; g__Dasineura; s__Dasineura mali
+190	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Ceratopogonidae; g__; s__
+511	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Ceratopogonidae; g__; s__
+193	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Chironomidae; g__; s__
+394	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Chironomidae; g__Chironomus; s__Chironomus riparius
+378	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Chloropidae; g__; s__
+187	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Culicidae; g__Aedes; s__Aedes albopictus
+223	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Culicidae; g__Aedes; s__Aedes japonicus
+186	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Culicidae; g__Anopheles; s__Anopheles pharoensis
+188	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Culicidae; g__Culex; s__Culex quinquefasciatus
+224	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Culicidae; g__Toxorhynchites; s__Toxorhynchites haemorrhoidalis
+225	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Culicidae; g__Wyeomyia; s__Wyeomyia mitchelli
+492	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Ceratopogonidae; g__Dasyhelea; s__Dasyhelea ludingensis
+487	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Ditomyiidae; g__; s__
+502	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Dolichopodidae; g__; s__
+506	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Drosophilidae; g__Drosophila; s__Drosophila aethostoma
+184	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Drosophilidae; g__Drosophila; s__Drosophila melanogaster
+481	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Drosophilidae; g__Drosophila; s__Drosophila repleta
+215	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Ephydridae; g__Hydrellia; s__Hydrellia tritici
+20	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Lonchaeidae; g__Neosilba; s__Neosilba zadolicha
+471	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Milichiidae; g__Neophyllomyza; s__
+185	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Muscidae; g__Helina; s__
+191	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Phoridae; g__; s__
+189	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Psychodidae; g__Lutzomyia; s__Lutzomyia cruciata
+192	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Sciaridae; g__; s__
+412	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Sciaridae; g__; s__
+493	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Sciaridae; g__Hyperlasion; s__
+408	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Sphaeroceridae; g__Copromyza; s__Copromyza equina
+431	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Sphaeroceridae; g__; s__
+495	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Sphaeroceridae; g__Rachispoda; s__
+203	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Syrphidae; g__Simosyrphus; s__Simosyrphus grandicornis
+290	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Syrphidae; g__Allograpta; s__Allograpta obliqua
+484	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Syrphidae; g__Eristalis; s__Eristalis tenax
+469	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Syrphidae; g__Toxomerus; s__
+443	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Tachinidae; g__; s__
+509	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Tachinidae; g__; s__
+494	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Tachinidae; g__Copecrypta; s__
+29	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Tachinidae; g__Palesisa; s__Palesisa nudioculata
+420	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Tachinidae; g__Patelloa; s__
+467	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Tephritidae; g__Acinia; s__Acinia picturata
+381	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Tephritidae; g__Anastrepha; s__Anastrepha bahiensis
+390	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Tephritidae; g__Anastrepha; s__Anastrepha distincta
+525	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Tephritidae; g__Anastrepha; s__Anastrepha pickeli
+226	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Tephritidae; g__Zeugodacus; s__Zeugodacus cucurbitae
+227	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Calliphoridae; g__Lucilia; s__Lucilia cuprina
+228	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Chironomidae; g__Chironomus; s__Chironomus hawaiiensis
+229	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Dolichopodidae; g__Dactylomyia; s__Dactylomyia vockerothi
+297	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Empididae; g__Rhamphomyia; s__Rhamphomyia albopilosa
+298	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Dolichopodidae; g__Sympycnus; s__Sympycnus lineatus
+299	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Drosophilidae; g__Drosophila; s__Drosophila colorata
+300	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Limoniidae; g__Dicranomyia; s__
+301	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Dolichopodidae; g__Campsicnemus; s__Campsicnemus montgomeryi
+302	k__Animalia; p__Arthropoda; c__Insecta; o__Diptera; f__Rhagionidae; g__Rhagio; s__Rhagio tringarius 
+97	k__Animalia; p__Arthropoda; c__Insecta; o__Embioptera; f__Oligotomidae; g__Aposthonia; s__Aposthonia borneensis
+98	k__Animalia; p__Arthropoda; c__Insecta; o__Ephemeroptera; f__Baetidae; g__Callibaetis; s__Callibaetis ferrugineus
+514	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__; g__; s__
+181	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Aleyrodidae; g__Siphoninus; s__Siphoninus phillyreae
+488	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Aphididae; g__Cinara; s__Cinara watsoni
+182	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Aphididae; g__Rhopalosiphum; s__Rhopalosiphum rufiabdominale
+183	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Cicadellidae; g__Macrosteles; s__Macrosteles laevis
+179	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Issidae; g__Dictyonissus; s__Dictyonissus griphus
+214	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Lygaeidae; g__Nysius; s__Nysius wekiuicola
+34	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Miridae; g__Apolygus; s__Apolygus lucorum
+414	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Miridae; g__Stenotus; s__Stenotus binotatus
+180	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Pentatomidae; g__Chinavia; s__Chinavia hilaris
+36	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Psyllidae; g__Psyllopsis; s__Psyllopsis discrepans
+178	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Rhyparochromidae; g__; s__
+361	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Tingidae; g__Pseudacysta; s__
+523	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Triozidae; g__; s__
+32	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Triozidae; g__Lauritrioza; s__Lauritrioza alacris
+41	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Triozidae; g__Pariaconus; s__Pariaconus pele
+231	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Delphacidae; g__Nesosydne; s__Nesosydne chambersi
+232	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Rhopalidae; g__Niesthrea; s__Niesthrea louisianica
+233	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Pseudococcidae; g__Dysmicoccus; s__Dysmicoccus brevipes
+234	k__Animalia; p__Arthropoda; c__Insecta; o__Hemiptera; f__Reduviidae; g__Haematoloecha; s__Haematoloecha rubescens
+176	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Apidae; g__Apis; s__Apis mellifera
+77	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Cephidae; g__Calameuta; s__Calameuta filum
+396	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Diapriidae; g__; s__
+177	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Evaniidae; g__Brachygaster; s__Brachygaster minutus
+76	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Formicidae; g__Camponotus; s__Camponotus claripes
+304	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Formicidae; g__Pheidole; s__Pheidole megacephala
+305	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Formicidae; g__Anoplolepis; s__Anoplolepis gracilipes
+235	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Colletidae; g__Hylaeus; s__Hylaeus setosifrons
+236	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Figitidae; g__Ganaspis; s__Ganaspis xanthopoda
+237	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Braconidae; g__Aphidius; s__Aphidius platensis
+239	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Ichneumonidae; g__Diadegma; s__Diadegma blackburni
+354	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Ichneumonidae; g__Diadegma; s__Diadegma blackburni
+489	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Ichneumonidae; g__Pristomerus; s__
+240	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Dryinidae; g__Dicondylus; s__Dicondylus perkinsi
+241	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Dryinidae; g__Pleistodontes; s__Pleistodontes froggatti
+242	k__Animalia; p__Arthropoda; c__Insecta; o__Hymenoptera; f__Megastigmidae; g__Megastigmus; s__Megastigmus transvaalensis
+423	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+433	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+438	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+451	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+452	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+453	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+454	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+455	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+500	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+510	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+513	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+519	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+526	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+528	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+536	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__; g__; s__
+310	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Alucitidae; g__Alucita; s__
+256	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Autostichidae; g__Oegoconia; s__Oegoconia uralskella
+311	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Batrachedridae; g__Batrachedra; s__Batrachedra arenosella
+312	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Bedelliidae; g__Bedellia; s__Bedellia somnulentella
+257	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Blastobasidae; g__Blastobasis; s__Blastobasis acirfa
+313	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Bucculatricidae; g__Bucculatrix; s__Bucculatrix ratisbonensis
+216	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Carposinidae; g__Carposina; s__Carposina ohawaiella
+314	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Castniidae; g__Synemon; s__Synemon sophia
+258	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Coleophoridae; g__Coleophora; s__Coleophora vestianella
+346	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Cosmopterigidae; g__; s__
+259	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Cosmopterigidae; g__Hyposmocoma; s__Hyposmocoma kahamanoa
+315	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Cossidae; g__Cossus; s__Cossus cossus
+447	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Crambidae; g__; s__
+446	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Crambidae; g__Eudonia; s__
+445	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Crambidae; g__Eudonia; s__Eudonia dactyliopa
+383	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Crambidae; g__Eudonia; s__Eudonia orthoria
+389	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Crambidae; g__Eudonia; s__Eudonia venosa
+70	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Crambidae; g__Nacoleia; s__Nacoleia rhoeoalis
+204	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Crambidae; g__Ostrinia; s__Ostrinia scapulalis
+294	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Crambidae; g__Tyspanodes; s__Tyspanodes hypsalis
+422	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Crambidae; g__Udea; s__Udea pyranthes
+497	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Depressariidae; g__Eupselia; s__
+260	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Depressariidae; g__Oxytropha; s__Oxytropha ametalla
+472	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Dryadaulidae; g__Dryadaula; s__Dryadaula terpsichorella
+261	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Elachistidae; g__Elachista; s__Elachista alacera
+392	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Epipyropidae; g__; s__
+529	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Erebidae; g__; s__
+68	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Erebidae; g__Anestia; s__Anestia semiochrea
+363	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Erebidae; g__Cosmosoma; s__Cosmosoma braconoides
+293	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Erebidae; g__Eudocima; s__Eudocima salaminia
+457	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Erebidae; g__Ophiusa; s__Ophiusa disjungens
+71	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Gelechiidae; g__Aproaerema; s__Aproaerema isoscelixantha
+436	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Gelechiidae; g__; s__
+411	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Gelechiidae; g__Tuta; s__Tuta absoluta
+521	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Geometridae; g__Anavitrinella; s__Anavitrinella addendaria
+205	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Geometridae; g__Cabera; s__Cabera erythemaria
+42	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Geometridae; g__Chelotephrina; s__
+28	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Geometridae; g__Gymnoscelis; s__Gymnoscelis rufifasciata
+387	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Geometridae; g__Thinopteryx; s__Thinopteryx crocoptera
+217	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Gracillariidae; g__Cremastobombycia; s__Cremastobombycia lantanella
+292	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Gracillariidae; g__Caloptilia; s__Caloptilia theivora
+316	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Heliodinidae; g__Embola; s__Embola ionis
+356	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Hepialidae; g__Dalaca; s__Dalaca variabilis
+73	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Hesperiidae; g__Astraptes; s__Astraptes augeas
+437	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Hesperiidae; g__; s__
+475	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Hesperiidae; g__Diaeus; s__Diaeus variegatus
+388	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Hesperiidae; g__Parnara; s__Parnara guttata
+399	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Hesperiidae; g__Parnara; s__Parnara guttata
+410	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Hesperiidae; g__Parnara; s__Parnara guttata
+317	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Immidae; g__Imma; s__Imma vaticina
+262	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Lasiocampidae; g__Phyllodesma; s__Phyllodesma americana
+540	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Lasiocampidae; g__Tolype; s__Tolype mayelisae
+15	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Limacodidae; g__Parasa; s__Parasa pastoralis
+479	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Limacodidae; g__Scopelodes; s__Scopelodes sericea
+403	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Lycaenidae; g__Azanus; s__Azanus natalensis
+62	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Lycaenidae; g__Callophrys; s__Callophrys johnsoni
+395	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Lycaenidae; g__Zizeeria; s__Zizeeria karsandra
+318	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Mimallonidae; g__Lacosoma; s__Lacosoma chiridota
+319	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Momphidae; g__Mompha; s__Mompha sexstrigella
+263	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nepticulidae; g__Ectoedemia; s__Ectoedemia occultella
+490	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Noctuidae; g__Decticryptis; s__
+400	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Noctuidae; g__Emmelia; s__Emmelia trabealis
+26	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Noctuidae; g__Leuconycta; s__Leuconycta diphteroides
+463	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Noctuidae; g__Protodeltote; s__Protodeltote albidula
+206	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Noctuidae; g__Trichoplusia; s__Trichoplusia ni
+473	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nolidae; g__Earias; s__Earias chlorodes
+380	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nolidae; g__Etanna; s__Etanna polypoecila
+264	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nolidae; g__Meganola; s__Meganola minuscula
+415	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nolidae; g__; s__
+456	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nolidae; g__; s__
+265	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Notodontidae; g__Clostera; s__Clostera curtula
+404	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Notodontidae; g__Fentonia; s__
+46	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nymphalidae; g__Bicyclus; s__Bicyclus buea
+545	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nymphalidae; g__Bicyclus; s__Bicyclus makomensis
+486	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nymphalidae; g__Hypoleria; s__Hypoleria rhene
+40	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nymphalidae; g__Junonia; s__Junonia almana
+468	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nymphalidae; g__Pedaliodes; s__Pedaliodes baccara
+39	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nymphalidae; g__Taygetina; s__Taygetina oreba
+61	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Nymphalidae; g__Vanessa; s__Vanessa tameamea
+541	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Antipterna; s__
+547	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Atholosticta; s__
+548	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Bisigna; s__Bisigna procerella
+459	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Brachynemata; s__Brachynemata diantha
+478	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Chezala; s__Chezala osteochroa
+543	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Chezala; s__Chezala osteochroa
+474	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Chrysonoma; s__
+498	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Euchaetis; s__
+552	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Euchaetis; s__Euchaetis rhodochila
+480	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Ocystola; s__Ocystola chionea
+499	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Oxythecta; s__Oxythecta acceptella
+470	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Oxythecta; s__Oxythecta loxomochla
+508	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Oxythecta; s__Oxythecta nephelonota
+485	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Philobota; s__
+476	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Phloeograptis; s__
+401	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Poliorhabda; s__Poliorhabda auriceps
+466	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Prepocosma; s__
+266	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Oecophoridae; g__Pseudotheta; s__Pseudotheta syrtica
+320	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Opostegidae; g__Pseudopostega; s__Pseudopostega duplicata
+544	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Papilionidae; g__Papilio; s__Papilio dardanus
+33	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Papilionidae; g__Parnassius; s__Parnassius smintheus
+291	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Papilionidae; g__Iphiclides; s__Iphiclides podalirius
+345	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Papilionidae; g__Luehdorfia; s__Luehdorfia chinensis
+402	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Pieridae; g__Colotis; s__Colotis eris
+267	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Pieridae; g__Pieris; s__Pieris rapae
+321	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Plutellidae; g__Rhigognostis; s__Rhigognostis interrupta
+218	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Psychidae; g__Brachycyttarus; s__Brachycyttarus griseus
+322	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Pterophoridae; g__Gillmeria; s__Gillmeria pallidactyla
+74	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Pyralidae; g__Heteromicta; s__Heteromicta pachytera
+268	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Riodinidae; g__Apodemia; s__Apodemia mejicanus
+551	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Riodinidae; g__Nymphidium; s__Nymphidium onaeum
+542	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Saturniidae; g__Antheraea; s__Antheraea roylii
+69	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Saturniidae; g__Saturnia; s__Saturnia pavoniella
+323	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Schistonoeidae; g__Schistonoea; s__Schistonoea fulvidella
+518	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Schreckensteiniidae; g__Schreckensteinia; s__Schreckensteinia festaliella
+324	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Scythrididae; g__Scythris; s__Scythris fuscoaenea
+309	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Sesiidae; g__Albuna; s__Albuna pyramidalis
+63	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Sphingidae; g__Manduca; s__Manduca blackburni
+25	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Tineidae; g__Opogona; s__Opogona sacchari
+442	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Tineidae; g__Tinea; s__Tinea pallescentella
+549	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Tortricidae; g__Epiphyas; s__Epiphyas postvittana
+550	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Tortricidae; g__Homona; s__Homona mermerodes
+72	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Tortricidae; g__Merophyas; s__Merophyas divulsana
+458	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Tortricidae; g__; s__
+382	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Xyloryctidae; g__Cryptophasa; s__Cryptophasa lasiocosma
+524	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Xyloryctidae; g__Heterochyta; s__
+477	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Xyloryctidae; g__Illidgea; s__
+464	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Xyloryctidae; g__Lichenaula; s__Lichenaula choriodes
+391	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Xyloryctidae; g__Lichenaula; s__
+407	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Xyloryctidae; g__Lichenaula; s__
+546	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Xyloryctidae; g__Lichenaula; s__Lichenaula onychotypa
+430	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Xyloryctidae; g__; s__
+269	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Xyloryctidae; g__Xylorycta; s__Xylorycta assimilis
+325	k__Animalia; p__Arthropoda; c__Insecta; o__Lepidoptera; f__Yponomeutidae; g__Swammerdamia; s__Swammerdamia caesiella
+75	k__Animalia; p__Arthropoda; c__Insecta; o__Mantodea; f__Mantidae; g__Tenodera; s__Tenodera sinensis
+175	k__Animalia; p__Arthropoda; c__Insecta; o__Mecoptera; f__Boreidae; g__Boreus; s__Boreus westwoodi
+174	k__Animalia; p__Arthropoda; c__Insecta; o__Megaloptera; f__Corydalidae; g__Megaloptera; s__Megaloptera janzen
+173	k__Animalia; p__Arthropoda; c__Insecta; o__Neuroptera; f__Hemerobiidae; g__Micromus; s__Micromus posticus
+172	k__Animalia; p__Arthropoda; c__Insecta; o__Notoptera; f__Grylloblattidae; g__Grylloblatta; s__Grylloblatta campodeiformis
+308	k__Animalia; p__Arthropoda; c__Insecta; o__Notoptera; f__Grylloblattidae; g__Grylloblatta; s__Grylloblatta sculleni
+307	k__Animalia; p__Arthropoda; c__Insecta; o__Notoptera; f__Mantophasmatidae; g__Sclerophasma; s__Sclerophasma paresisense
+171	k__Animalia; p__Arthropoda; c__Insecta; o__Odonata; f__Coenagrionidae; g__Ceriagrion; s__Ceriagrion coromandelianum
+504	k__Animalia; p__Arthropoda; c__Insecta; o__Odonata; f__Coenagrionidae; g__Enallagma; s__
+170	k__Animalia; p__Arthropoda; c__Insecta; o__Odonata; f__Libellulidae; g__Acisoma; s__Acisoma variegatum
+44	k__Animalia; p__Arthropoda; c__Insecta; o__Odonata; f__Macromiidae; g__Macromia; s__Macromia daimoji
+169	k__Animalia; p__Arthropoda; c__Insecta; o__Orthoptera; f__Tettigoniidae; g__Roeseliana; s__Roeseliana roeselii
+522	k__Animalia; p__Arthropoda; c__Insecta; o__Orthoptera; f__Trigonidiidae; g__; s__
+306	k__Animalia; p__Arthropoda; c__Insecta; o__Orthoptera; f__Trigonidiidae; g__Trigonidium; s__Trigonidium sjostedti
+168	k__Animalia; p__Arthropoda; c__Insecta; o__Phasmatodea; f__Prisopodidae; g__Prisopus; s__Prisopus biolleyi
+167	k__Animalia; p__Arthropoda; c__Insecta; o__Plecoptera; f__Leuctridae; g__Paraleuctra; s__Paraleuctra forcipata
+507	k__Animalia; p__Arthropoda; c__Insecta; o__Psocodea; f__Ectopsocidae; g__Ectopsocus; s__Ectopsocus californicus
+166	k__Animalia; p__Arthropoda; c__Insecta; o__Psocodea; f__Elipsocidae; g__Propsocus; s__Propsocus pulchripennis
+427	k__Animalia; p__Arthropoda; c__Insecta; o__Psocodea; f__; g__; s__
+344	k__Animalia; p__Arthropoda; c__Insecta; o__Psocodea; f__Lepidopsocidae; g__; s__
+165	k__Animalia; p__Arthropoda; c__Insecta; o__Raphidioptera; f__Raphidiidae; g__Agulla; s__Agulla adnixa
+164	k__Animalia; p__Arthropoda; c__Insecta; o__Siphonaptera; f__Pulicidae; g__Ctenocephalides; s__Ctenocephalides felis
+163	k__Animalia; p__Arthropoda; c__Insecta; o__Strepsiptera; f__Elenchidae; g__Elenchus; s__Elenchus tenuicornis
+162	k__Animalia; p__Arthropoda; c__Insecta; o__Thysanoptera; f__Thripidae; g__Anaphothrips; s__Anaphothrips obscurus
+365	k__Animalia; p__Arthropoda; c__Insecta; o__Trichoptera; f__Calamoceratidae; g__Phylloicus; s__
+161	k__Animalia; p__Arthropoda; c__Insecta; o__Trichoptera; f__Hydropsychidae; g__Arctopsyche; s__Arctopsyche grandis
+51	k__Animalia; p__Arthropoda; c__Insecta; o__Trichoptera; f__Limnephilidae; g__Limnephilus; s__Limnephilus marmoratus
+160	k__Animalia; p__Arthropoda; c__Insecta; o__Zoraptera; f__Zorotypidae; g__Zorotypus; s__Zorotypus medoensis
+159	k__Animalia; p__Arthropoda; c__Insecta; o__Zygentoma; f__Lepismatidae; g__Lepisma; s__Lepisma saccharina
+93	k__Animalia; p__Arthropoda; c__Malacostraca; o__Amphipoda; f__Talitridae; g__; s__
+327	k__Animalia; p__Arthropoda; c__Malacostraca; o__Amphipoda; f__Ampithoidae; g__Ampithoe; s__Ampithoe poipu
+421	k__Animalia; p__Arthropoda; c__Malacostraca; o__Decapoda; f__Aeglidae; g__Aegla; s__
+94	k__Animalia; p__Arthropoda; c__Malacostraca; o__Isopoda; f__Oniscidae; g__Oniscus; s__Oniscus asellus
+326	k__Animalia; p__Arthropoda; c__Malacostraca; o__Isopoda; f__Ligiidae; g__Ligia; s__
+158	k__Animalia; p__Arthropoda; c__Merostomata; o__Xiphosurida; f__Limulidae; g__Carcinoscorpius; s__Carcinoscorpius rotundicauda
+157	k__Animalia; p__Arthropoda; c__Ostracoda; o__Podocopida; f__Cyprididae; g__Heterocypris; s__Heterocypris incongruens
+272	k__Animalia; p__Arthropoda; c__Ostracoda; o__Podocopida; f__Cyprididae; g__Heterocypris; s__Herpetocypris chevreuxi
+273	k__Animalia; p__Arthropoda; c__Ostracoda; o__Podocopida; f__Cyprididae; g__Cypretta; s__Cypretta campechensis
+274	k__Animalia; p__Arthropoda; c__Ostracoda; o__Podocopida; f__Cyprididae; g__Cypris; s__Cypris pubera
+275	k__Animalia; p__Arthropoda; c__Ostracoda; o__Podocopida; f__Cyprididae; g__Cypridopsis; s__Cypridopsis vidua
+276	k__Animalia; p__Arthropoda; c__Ostracoda; o__Podocopida; f__Cyprididae; g__Eucypris; s__Eucypris virens
+277	k__Animalia; p__Arthropoda; c__Ostracoda; o__Podocopida; f__Cyprididae; g__Stenocypris; s__Stenocypris hislopi
+278	k__Animalia; p__Arthropoda; c__Ostracoda; o__Podocopida; f__Candonidae; g__Candona; s__Candona candida
+279	k__Animalia; p__Arthropoda; c__Ostracoda; o__Podocopida; f__Macrocyprididae; g__Macroscapha; s__Macroscapha inaequata
+280	k__Animalia; p__Arthropoda; c__Ostracoda; o__Podocopida; f__Entocytheridae; g__Ankylocythere; s__Ankylocythere sinuosa
+281	k__Animalia; p__Arthropoda; c__Ostracoda; o__Halocyprida; f__; g__; s__
+282	k__Animalia; p__Arthropoda; c__Ostracoda; o__Myodocopida; f__Philomedidae; g__Euphilomedes; s__Euphilomedes producta
+156	k__Animalia; p__Arthropoda; c__Pauropoda; o__Tetramerocerata; f__Pauropodidae; g__Pauropus; s__Pauropus longiramus
+155	k__Animalia; p__Arthropoda; c__Protura; o__Acerentomata; f__Acerentomidae; g__Yamatentomon; s__Yamatentomon guoi
+154	k__Animalia; p__Arthropoda; c__Pycnogonida; o__Pantopoda; f__Nymphonidae; g__Nymphon; s__Nymphon surinamense
+153	k__Animalia; p__Arthropoda; c__Remipedia; o__Nectiopoda; f__Speleonectidae; g__Speleonectes; s__Speleonectes gironensis
+152	k__Animalia; p__Arthropoda; c__Symphyla; o__; f__; g__; s__
+151	k__Animalia; p__Arthropoda; c__Thecostraca; o__Sessilia; f__Archaeobalanidae; g__Semibalanus; s__
+150	k__Animalia; p__Brachiopoda; c__Lingulata; o__Lingulida; f__Lingulidae; g__Glottidia; s__
+149	k__Animalia; p__Bryozoa; c__Phylactolaemata; o__Plumatellida; f__Plumatellidae; g__Plumatella; s__Plumatella nitens
+148	k__Animalia; p__Chaetognatha; c__Sagittoidea; o__Phragmophora; f__; g__; s__
+385	k__Animalia; p__Chordata; c__Actinopterygii; o__Gobiiformes; f__Eleotridae; g__Eleotris; s__Eleotris fusca
+31	k__Animalia; p__Chordata; c__Aves; o__Passeriformes; f__Dicaeidae; g__Dicaeum; s__Dicaeum concolor
+38	k__Animalia; p__Chordata; c__Aves; o__Passeriformes; f__Fringillidae; g__Loxops; s__Loxops caeruleirostris
+3	k__Animalia; p__Chordata; c__Aves; o__Passeriformes; f__Fringillidae; g__Oreomystis; s__Oreomystis bairdi
+330	k__Animalia; p__Chordata; c__Aves; o__Passeriformes; f__Fringillidae; g__Oreomystis; s__Oreomystis bairdi
+64	k__Animalia; p__Chordata; c__Reptilia; o__Squamata; f__Dactyloidae; g__Anolis; s__Anolis sagrei
+65	k__Animalia; p__Chordata; c__Amphibia; o__Anura; f__Eleutherodactylidae; g__Eleutherodactylus; s__Eleutherodactylus planirostris
+147	k__Animalia; p__Chordata; c__Mammalia; o__Primates; f__Hominidae; g__Homo; s__Homo sapiens
+146	k__Animalia; p__Chordata; c__Mammalia; o__Rodentia; f__Muridae; g__Rattus; s__Rattus rattus
+145	k__Animalia; p__Cnidaria; c__Hydrozoa; o__Anthoathecata; f__Hydridae; g__Hydra; s__
+366	k__Animalia; p__Cnidaria; c__Hydrozoa; o__Siphonophorae; f__Erennidae; g__Erenna; s__Erenna sirena
+144	k__Animalia; p__Ctenophora; c__Tentaculata; o__Lobata; f__; g__; s__
+143	k__Animalia; p__Cycliophora; c__Eucycliophora; o__Symbiida; f__Symbiidae; g__Symbion; s__
+142	k__Animalia; p__Echinodermata; c__Holothuroidea; o__Dendrochirotida; f__Cucumariidae; g__Staurocucumis; s__Staurocucumis turqueti
+141	k__Animalia; p__Entoprocta; c__; o__; f__; g__; s__ 
+140	k__Animalia; p__Gastrotricha; c__; o__; f__; g__; s__ 
+139	k__Animalia; p__Gnathostomulida; c__; o__; f__; g__; s__ 
+118	k__Animalia; p__Hemichordata; c__Enteropneusta; o__; f__; g__; s__ 
+117	k__Animalia; p__Kinorhyncha; c__; o__; f__; g__; s__
+254	k__Animalia; p__Mollusca; c__Gastropoda; o__Amphiboloidea; f__Amphibolidae; g__Lactiforis; s__Lactiforis tropicalis
+251	k__Animalia; p__Mollusca; c__Gastropoda; o__Architaenioglossa; f__Viviparidae; g__Cipangopaludina; s__Cipangopaludina chinensis
+243	k__Animalia; p__Mollusca; c__Gastropoda; o__Cycloneritida; f__Neritidae; g__Neritina; s__Neritina granosa
+255	k__Animalia; p__Mollusca; c__Gastropoda; o__Ellobiida; f__Ellobiidae; g__Melampus; s__Melampus castaneus
+253	k__Animalia; p__Mollusca; c__Gastropoda; o__Littorinimorpha; f__Assimineidae; g__Assiminea; s__Assiminea hiradoensis
+244	k__Animalia; p__Mollusca; c__Gastropoda; o__Littorinimorpha; f__Littorinidae; g__Peasiella; s__Peasiella tantilla
+250	k__Animalia; p__Mollusca; c__Gastropoda; o__Littorinimorpha; f__Pomatiasidae; g__Pomatias; s__Pomatias elegans
+27	k__Animalia; p__Mollusca; c__Gastropoda; o__Neogastropoda; f__Nassariidae; g__Antillophos; s__
+252	k__Animalia; p__Mollusca; c__Gastropoda; o__Neritopsina; f__Helicinidae; g__Oligyra; s__Oligyra orbiculata
+66	k__Animalia; p__Mollusca; c__Gastropoda; o__Stylommatophora; f__Achatinellidae; g__Achatinella; s__Achatinella mustelina
+367	k__Animalia; p__Mollusca; c__Gastropoda; o__Stylommatophora; f__Achatinidae; g__Subulina; s__Subulina octona
+245	k__Animalia; p__Mollusca; c__Gastropoda; o__Stylommatophora; f__Camaenidae; g__Bradybaena; s__Bradybaena similaris
+248	k__Animalia; p__Mollusca; c__Gastropoda; o__Stylommatophora; f__Helicidae; g__Helix; s__Helix pomatia
+249	k__Animalia; p__Mollusca; c__Gastropoda; o__Stylommatophora; f__Limacidae; g__Limax; s__Limax sarnensis
+246	k__Animalia; p__Mollusca; c__Gastropoda; o__Stylommatophora; f__Oxychilidae; g__Oxychilus; s__Oxychilus alliarius
+67	k__Animalia; p__Mollusca; c__Gastropoda; o__Stylommatophora; f__Spiraxidae; g__Euglandina; s__Euglandina rosea
+247	k__Animalia; p__Mollusca; c__Gastropoda; o__Systellommatophora; f__Veronicellidae; g__Veronicella; s__Veronicella cubensis
+428	k__Animalia; p__Mollusca; c__Gastropoda; o__Systellommatophora; f__Vertiginidae; g__Vertigo; s__Vertigo californica
+53	k__Animalia; p__Nematoda; c__Chromadorea; o__Rhabditida; f__Ancylostomatidae; g__Necator; s__Necator americanus
+328	k__Animalia; p__Nematoda; c__Chromadorea; o__Rhabditida; f__Steinernematidae; g__Steinernema; s__Steinernema carpocapsae
+116	k__Animalia; p__Nematoda; c__Enoplea; o__Mermithida; f__Mermithidae; g__Trophomermis; s__Trophomermis Janzen
+115	k__Animalia; p__Nematoda; c__Chromadorea; o__Rhabditida; f__Angiostrongylidae; g__Angiostrongylus; s__Angiostrongylus cantonensis
+221	k__Animalia; p__Nematoda; c__Chromadorea; o__Tylenchida; f__Criconematidae; g__Hemicriconemoides; s__
+114	k__Animalia; p__Nematomorpha; c__Gordiida; o__Gordioidea; f__Gordiidae; g__Gordius; s__Gordius robustus
+113	k__Animalia; p__Nemertea; c__Pilidiophora; o__Heteronemertea; f__Lineidae; g__Parborlasia; s__Parborlasia corrugatus
+112	k__Animalia; p__Onychophora; c__Onychophorida; o__Euonychophora; f__; g__; s__
+111	k__Animalia; p__Phoronida; c__; o__; f__; g__; s__
+110	k__Animalia; p__Placozoa; c__; o__; f__; g__; s__
+107	k__Animalia; p__Platyhelminthes; c__Cestoda; o__Pseudophyllidea; f__Ligulidae; g__Schistocephalus; s__Schistocephalus solidus
+108	k__Animalia; p__Platyhelminthes; c__Trematoda; o__Diplostomida; f__Leucochloridiidae; g__Leucochloridium; s__Leucochloridium paradoxum
+109	k__Animalia; p__Platyhelminthes; c__Trematoda; o__Diplostomida; f__Schistosomatidae; g__Schistosoma; s__Schistosoma japonicum
+106	k__Animalia; p__Porifera; c__Demospongiae; o__Spongillida; f__Spongillidae; g__Spongilla; s__Spongilla lacustris
+105	k__Animalia; p__Priapulida; c__Priapulimorpha; o__Priapulimorphida; f__Priapulidae; g__Priapulus; s__Priapulus caudatus
+104	k__Animalia; p__Rhombozoa; c__; o__; f__; g__; s__
+426	k__Animalia; p__Rotifera; c__Bdelloidea; o__; f__; g__; s__
+384	k__Animalia; p__Rotifera; c__Bdelloidea; o__Adinetida; f__Adinetidae; g__Adineta; s__
+47	k__Animalia; p__Rotifera; c__Bdelloidea; o__Bdelloida; f__Philodinavidae; g__Abrochtha; s__Abrochtha sonneborni
+417	k__Animalia; p__Rotifera; c__Bdelloidea; o__Bdelloida; f__Philodinidae; g__Philodina; s__Philodina plena
+288	k__Animalia; p__Rotifera; c__Bdelloidea; o__Bdelloida; f__Philodinidae; g__Rotaria; s__Rotaria sordida
+355	k__Animalia; p__Rotifera; c__Bdelloidea; o__Bdelloida; f__Philodinidae; g__Macrotrachela; s__Macrotrachela latior
+357	k__Animalia; p__Rotifera; c__Bdelloidea; o__Bdelloida; f__Philodinidae; g__Macrotrachela; s__Macrotrachela quadricornifera
+286	k__Animalia; p__Rotifera; c__Bdelloidea; o__Adinetida; f__Adinetidae; g__Adineta; s__Adineta gracilis
+287	k__Animalia; p__Rotifera; c__Bdelloidea; o__Philodinida; f__Habrotrochidae; g__Habrotrocha; s__Habrotrocha bidens
+406	k__Animalia; p__Rotifera; c__Bdelloidea; o__Philodinida; f__Philodinidae; g__Philodina; s__
+103	k__Animalia; p__Rotifera; c__Monogononta; o__Ploima; f__Asplanchnidae; g__Asplanchna; s__Asplanchna silvestrii
+100	k__Animalia; p__Sipuncula; c__Sipunculidea; o__Golfingiida; f__Golfingiidae; g__Thysanocardia; s__Thysanocardia nigra
+416	k__Animalia; p__Tardigrada; c__Eutardigrada; o__Echiniscoidea; f__Echiniscidae; g__Echiniscus; s__Echiniscus spiniger
+99	k__Animalia; p__Tardigrada; c__Eutardigrada; o__Parachaela; f__Hypsibiidae; g__Borealibius; s__Borealibius zetlandicus
+331	k__Animalia; p__Tardigrada; c__Eutardigrada; o__Parachela; f__Murrayidae; g__Murrayon; s__Murrayon dianeae
+52	k__Animalia; p__Tardigrada; c__Heterotardigrada; o__Echiniscoidea; f__Echiniscidae; g__Echiniscus; s__Echiniscus granulatus
+59	k__Animalia; p__Xenacoelomorpha; c__Acoelomorpha; o__Acoela; f__Convolutidae; g__Symsagittifera; s__Symsagittifera roscoffensis
+126	k__Archaea; p__Thermoproteota; c__Thermoprotei; o__Acidilobales; f__Acidilobaceae; g__Acidilobus; s__Acidilobus saccharovorans
+127	k__Archaea; p__Euryarchaeota; c__Halobacteria; o__Halobacteriales; f__Halobacteriaceae; g__Halorubrum; s__Halorubrum lacusprofundi
+119	k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__Rickettsiaceae; g__Rickettsia; s__Rickettsia conorii
+371	k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__; g__; s__
+120	k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Polynucleobacter; s__Polynucleobacter asymbioticus
+121	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae; g__Aliivibrio; s__Aliivibrio fischeri
+122	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter; s__Campylobacter lari
+123	k__Bacteria; p__Actinomycetota; c__Actinomycetia; o__Streptomycetales; f__Streptomycetaceae; g__Streptomyces; s__Streptomyces coelicolor
+124	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Rossellomorea; s__Rossellomorea marisflavi
+125	k__Bacteria; p__Cyanobacteria; c__Cyanophyceae; o__Synechococcales; f__Prochloraceae; g__Prochlorococcus; s__Prochlorococcus marinus
+102	k__Chromista; p__Apicomplexa; c__Aconoidasida; o__Haemosporida; f__Plasmodiidae; g__Plasmodium; s__Plasmodium relictum
+101	k__Chromista; p__Apicomplexa; c__Conoidasida; o__Eucoccidiorida; f__Sarcocystidae; g__Toxoplasma; s__Toxoplasma gondii
+11	k__Chromista; p__Ochrophyta; c__Eustigmatophyceae; o__Eustigmatales; f__Eustigmataceae; g__Vischeria; s__Vischeria stellata
+348	k__Chromista; p__Oomycota; c__incertae sedis; o__; f__; g__; s__
+350	k__Chromista; p__Oomycota; c__incertae sedis; o__; f__; g__; s__
+50	k__Chromista; p__Oomycota; c__Oomycetes; o__Peronosporales; f__Peronosporaceae; g__Hyaloperonospora; s__Hyaloperonospora dentariae
+13	k__Chromista; p__Oomycota; c__Oomycetes; o__Peronosporales; f__Peronosporaceae; g__Peronospora; s__Peronospora alpicola
+284	k__Chromista; p__Oomycota; c__Oomycetes; o__Peronosporales; f__Peronosporaceae; g__Peronospora; s__Peronospora conglomerata
+14	k__Chromista; p__Oomycota; c__Oomycetes; o__Peronosporales; f__Peronosporaceae; g__Phytophthora; s__Phytophthora fragariaefolia
+283	k__Chromista; p__Oomycota; c__Oomycetes; o__Peronosporales; f__Peronosporaceae; g__Phytophthora; s__Phytophthora inundata
+9	k__Chromista; p__Oomycota; c__Oomycetes; o__Pythiales; f__Pythiaceae; g__Halophytophthora; s__Halophytophthora avicenniae
+16	k__Chromista; p__Oomycota; c__Oomycetes; o__Rhipidiales; f__Rhipidiaceae; g__Sapromyces; s__Sapromyces elongatus
+285	k__Chromista; p__Oomycota; c__Oomycetes; o__Saprolegniales; f__Saprolegniaceae; g__Saprolegnia; s__Saprolegnia ferax
+132	k__Fungi; p__Ascomycota; c__Leotiomycetes; o__; f__; g__; s__
+8	k__Fungi; p__Basidiomycota; c__Agaricomycetes; o__Agaricales; f__Agaricaceae; g__Leucoagaricus; s__Leucoagaricus leucothites
+351	k__Fungi; p__Basidiomycota; c__incertae sedis; o__; f__; g__; s__
+133	k__Fungi; p__Chytridiomycota; c__Chytridiomycetes; o__Spizellomycetales; f__Spizellomycetaceae; g__Spizellomyces; s__Spizellomyces punctatus
+134	k__Fungi; p__Myxomycota; c__Phycomycota; o__Blastocladiales; f__Blastocladiaceae; g__Blastocladiella; s__Blastocladiella emersonii
+135	k__Fungi; p__Zygomycota; c__Zygomycetes; o__Mortierellales; f__Mortierellaceae; g__Mortierella; s__Mortierella verticillata
+336	k__Plantae; p__incertae sedis; c__; o__; f__; g__; s__
+341	k__Plantae; p__incertae sedis; c__; o__; f__; g__; s__
+343	k__Plantae; p__incertae sedis; c__; o__; f__; g__; s__
+352	k__Plantae; p__incertae sedis; c__; o__; f__; g__; s__
+56	k__Plantae; p__Bryophyta; c__Bryopsida; o__Pottiales; f__Pottiaceae; g__Oxystegus; s__Oxystegus tenuirostris
+334	k__Plantae; p__Bryophyta; c__Bryopsida; o__Hypnales; f__Brachytheciaceae; g__Brachythecium; s__Brachythecium rivulare
+337	k__Plantae; p__Chlorophyta; c__incertae sedis; o__; f__; g__; s__
+338	k__Plantae; p__Chlorophyta; c__incertae sedis; o__; f__; g__; s__
+339	k__Plantae; p__Chlorophyta; c__incertae sedis; o__; f__; g__; s__
+340	k__Plantae; p__Chlorophyta; c__incertae sedis; o__; f__; g__; s__
+349	k__Plantae; p__Chlorophyta; c__incertae sedis; o__; f__; g__; s__
+6	k__Plantae; p__Chlorophyta; c__Chlorophyceae; o__Chlorococcales; f__Coccomyxaceae; g__Coccomyxa; s__Coccomyxa subellipsoidea
+10	k__Plantae; p__Chlorophyta; c__Mamiellophyceae; o__Dolichomastigales; f__Dolichomastigaceae; g__Dolichomastix; s__Dolichomastix tenuilepis
+35	k__Plantae; p__Chlorophyta; c__Mamiellophyceae; o__Monomastigales; f__Monomastigaceae; g__Monomastix; s__
+7	k__Plantae; p__Chlorophyta; c__Trebouxiophyceae; o__; f__; g__; s__
+4	k__Plantae; p__Chlorophyta; c__Trebouxiophyceae; o__Prasiolales; f__Prasiolaceae; g__Prasiola; s__Prasiola crispa
+289	k__Plantae; p__Chlorophyta; c__Trebouxiophyceae; o__Trebouxiophyceae incertae sedis; f__Watanabea clade; g__Jaagichlorella; s__Jaagichlorella roystonensis
+57	k__Plantae; p__Lycopodiophyta; c__Lycopodiopsida; o__Lycopodiales; f__Lycopodiaceae; g__Phlegmariurus; s__Phlegmariurus squarrosus
+138	k__Plantae; p__Magnoliophyta; c__Eudicots; o__Fabales; f__Fabaceae; g__Sophora; s__Sophora flavescens
+54	k__Plantae; p__Magnoliophyta; c__Eudicots; o__Myrtales; f__Myrtaceae; g__Eucalyptus; s__Eucalyptus grandis
+55	k__Plantae; p__Pinophyta; c__Pinopsida; o__Pinales; f__Pinaceae; g__Pinus; s__Pinus taeda
+129	k__Plantae; p__Pteridophyta; c__Polypodiopsida; o__Ophioglossales; f__Ophioglossaceae; g__Ophioglossum; s__Ophioglossum californicum
+342	k__Plantae; p__Rhodophyta; c__incertae sedis; o__; f__; g__; s__
+373	k__Plantae; p__Rhodophyta; c__incertae sedis; o__; f__; g__; s__
+375	k__Plantae; p__Rhodophyta; c__incertae sedis; o__; f__; g__; s__
+2	k__Plantae; p__Rhodophyta; c__Florideophyceae; o__Ceramiales; f__Rhodomelaceae; g__Polysiphonia; s__Polysiphonia isogona
+1	k__Plantae; p__Rhodophyta; c__Florideophyceae; o__Gracilariales; f__Gracilariaceae; g__Crassiphycus; s__Crassiphycus crassissimus
+18	k__Plantae; p__Rhodophyta; c__Florideophyceae; o__Gracilariales; f__Gracilariaceae; g__Gracilaria; s__Gracilaria chilensis
+21	k__Plantae; p__Rhodophyta; c__Florideophyceae; o__Gracilariales; f__Gracilariaceae; g__Gracilaria; s__Gracilaria birdiae
+22	k__Plantae; p__Rhodophyta; c__Florideophyceae; o__Gracilariales; f__Gracilariaceae; g__Gracilariopsis; s__Gracilariopsis lemaneiformis
+5	k__Plantae; p__Rhodophyta; c__Florideophyceae; o__Gracilariales; f__Gracilariaceae; g__Gracilariopsis; s__Gracilariopsis longissima
+49	k__Plantae; p__Rhodophyta; c__Florideophyceae; o__Gracilariales; f__Gracilariaceae; g__Hydropuntia; s__Hydropuntia urvillei
+296	k__Plantae; p__Rhodophyta; c__Florideophyceae; o__Gelidiales; f__Pterocladiaceae; g__Pterocladiella; s__Pterocladiella capillacea
+360	k__Plantae; p__Rhodophyta; c__Florideophyceae; o__Halymeniales; f__Halymeniaceae; g__; s__
+48	k__Plantae; p__Rhodophyta; c__Florideophyceae; o__Nemaliales; f__Liagoraceae; g__Titanophycus; s__Titanophycus validus
+372	k__SAR; p__Ochrophyta; c__Phaeophyceae; o__Ectocarpales; f__Scytosiphonaceae; g__Colpomenia; s__Colpomenia sinuosa
+130	k__SAR; p__Ochrophyta; c__Phaeophyceae; o__Laminariales; f__Laminariaceae; g__Saccharina; s__Saccharina sculpera
+131	k__SAR; p__Ochrophyta; c__Bacillariophyceae; o__Naviculales; f__Berkeleyaceae; g__Berkeleya; s__Berkeleya fennica
+136	k__SAR; p__Ciliophora; c__Spirotrichea; o__Tintinnida; f__; g__; s__
+137	k__SAR; p__Pyrrophycophyta; c__Dinophyceae; o__Gonyaulacales; f__Oxytoxaceae; g__Adenoides; s__Adenoides eludens
+128	k__Viruses; p__Uroviricota; c__Caudoviricetes; o__Caudovirales; f__Myoviridae; g__Atlauavirus; s__Synechococcus virus
+377	k__repetative; p__; c__; o__; f__; g__; s__
+

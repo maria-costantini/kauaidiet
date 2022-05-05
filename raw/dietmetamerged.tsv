@@ -1,0 +1,448 @@
+sample-id	PCR Plate Location	Island	Abbreviation	Species	Band Number	Date Collected	Location	Notes	PCR Plate	Sample or Control 	Foraging Guild	Sex	Age Class	Age	Breeding Condition?	Fat	Wing	Tail	Culmen	Tarsus	Molt	Mass
+1821-20784-COI	F7	Kauai	AKEK	Akekee	1821-20784	1/31/17	HPK		Maria-COI_plate1	Sample	Insectivore 											
+1821-21379-COI	E7	Kauai	AKEK	Akekee	1821-21379	4/24/17	HPK		Maria-COI_plate1	Sample	Insectivore 											
+1821-21380-COI	D7	Kauai	AKEK	Akekee	1821-21380	4/24/17	HPK		Maria-COI_plate1	Sample	Insectivore 											
+2280-37663-COI	A11	Kauai	AKEK	Akekee	2280-37663	2/24/18	HPK		Maria-COI_plate2	Sample	Insectivore 											
+2280-37683-COI	H5	Kauai	AKEK	Akekee	2280-37683	7/5/19	HPK		Maria-COI_plate1	Sample	Insectivore 											
+2280-37760-COI	A6	Kauai	AKEK	Akekee	2280-37760	4/7/18	HPK		Maria-COI_plate1	Sample	Insectivore 											
+2280-37793-COI	G5	Kauai	AKEK	Akekee	2280-37793	5/31/19	HPK		Maria-COI_plate1	Sample	Insectivore 											
+2631-36118-COI	A1	Kauai	AKEK	Akekee	2631-36118	2/7/18	HPK	2631-36118-COI_reseq	Maria-COI_plate1	Sample	Insectivore 											
+2631-36140-COI	G7	Kauai	AKEK	Akekee	2631-36140	4/20/18	HPK		Maria-COI_plate1	Sample	Insectivore 											
+1851-54906-COI	G10	Big Island	AKEP	Akepa	1851-54906	3/25/15	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2390-93111-COI	C11	Big Island	AKEP	Akepa	2390-93111	2/10/16	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2390-93144-COI	D8	Big Island	AKEP	Akepa	2390-93144	3/15/16	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2390-93189-COI	D10	Big Island	AKEP	Akepa	2390-93189	4/24/16	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2390-93256-COI	G2	Big Island	AKEP	Akepa	2390-93256	3/16/16	PEDR		Maria-COI_plate5	Sample	Insectivore 											
+2390-93300-COI	C12	Big Island	AKEP	Akepa	2390-93300	10/1/15	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2400-68090-042216-COI	D12	Big Island	AKEP	Akepa	2400-68090	4/22/16	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2400-68090-052515-COI	A6	Big Island	AKEP	Akepa	2400-68090	5/25/15	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2690-92209-COI	D3	Big Island	AKEP	Akepa	2690-92209	5/21/15	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2690-92220-022615-COI	B7	Big Island	AKEP	Akepa	2690-92220	2/26/15	PUAK		Maria-COI_plate4	Sample	Insectivore 											
+2690-92220-060320-COI	B11	Big Island	AKEP	Akepa	2690-92220	6/3/20	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2690-92228-COI	E3	Big Island	AKEP	Akepa	2690-92228	3/2/13	PEDR		Maria-COI_plate3	Sample	Insectivore 											
+2690-92252-COI	F7	Big Island	AKEP	Akepa	2690-92252	3/24/16	PEDR		Maria-COI_plate3	Sample	Insectivore 											
+2710-42577-COI	F11	Big Island	AKEP	Akepa	2710-42577	2/24/15	PEDR		Maria-COI_plate3	Sample	Insectivore 											
+2730-22105-COI	D6	Big Island	AKEP	Akepa	2730-22105	5/11/14	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2730-22226-COI	D11	Big Island	AKEP	Akepa	2730-22226	5/18/16	PEDR		Maria-COI_plate3	Sample	Insectivore 											
+2730-22236-COI	H6	Big Island	AKEP	Akepa	2730-22236	3/26/16	PUAK		Maria-COI_plate4	Sample	Insectivore 											
+2730-22273-COI	H5	Big Island	AKEP	Akepa	2730-22273	5/23/15	PEOR		Maria-COI_plate3	Sample	Insectivore 											
+2730-22318-COI	D7	Big Island	AKEP	Akepa	2730-22318	5/10/16	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2730-22320-COI	G11	Big Island	AKEP	Akepa	2730-22320	5/16/16	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+1801-16163-COI	G4	Big Island	AKIA	Akiapolaau	1801-16163	5/18/14	PUAK		Maria-COI_plate4	Sample	Insectivore 											
+1801-16165-041513-COI	C1	Big Island	AKIA	Akiapolaau	1801-16165	4/15/13	PUAK		Maria-COI_plate4	Sample	Insectivore 											
+1801-16165-041613-COI	F8	Big Island	AKIA	Akiapolaau	1801-16165	4/16/13	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+1801-16166-COI	D1	Big Island	AKIA	Akiapolaau	1801-16166	4/15/13	PUAK		Maria-COI_plate4	Sample	Insectivore 											
+1801-16168-COI	B4	Big Island	AKIA	Akiapolaau	1801-16168	9/27/13	PUAK		Maria-COI_plate4	Sample	Insectivore 											
+1801-16186-COI	C9	Big Island	AKIA	Akiapolaau	1801-16186	12/14/13	NAUHI		Maria-COI_plate3	Sample	Insectivore 											
+1841-12149-COI	C5	Big Island	AKIA	Akiapolaau	1841-12149	7/1/20	BOG		Maria-COI_plate3	Sample	Insectivore 											
+2641-48231-COI	A9	Big Island	AKIA	Akiapolaau	2641-48231	1/28/20	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2641-96105-COI	E4	Big Island	AKIA	Akiapolaau	2641-96105	4/21/14	PEDR		Maria-COI_plate4	Sample	Insectivore 											
+2641-96133-COI	B1	Big Island	AKIA	Akiapolaau	2641-96133	3/30/15	KOAR		Maria-COI_plate4	Sample	Insectivore 											
+2641-96137-COI	A1	Big Island	AKIA	Akiapolaau	2641-96137	4/22/15	PEDR		Maria-COI_plate4	Sample	Insectivore 											
+2641-96159-COI	G3	Big Island	AKIA	Akiapolaau	2641-96159	2/15/16	KOAR		Maria-COI_plate4	Sample	Insectivore 											
+2641-96161-COI	A4	Big Island	AKIA	Akiapolaau	2641-96161	2/17/17	PUAK		Maria-COI_plate4	Sample	Insectivore 											
+2641-96164-COI	H3	Big Island	AKIA	Akiapolaau	2641-96164	3/19/16	PUAK		Maria-COI_plate4	Sample	Insectivore 											
+881-81194-070215-COI	H1	Big Island	AKIA	Akiapolaau	881-81194	7/2/15	PEDR		Maria-COI_plate5	Sample	Insectivore 											
+881-81194-072012-COI	E12	Big Island	AKIA	Akiapolaau	881-81194	7/20/12	PEDR		Maria-COI_plate3	Sample	Insectivore 											
+881-81198-COI	B1	Big Island	AKIA	Akiapolaau	881-81198	3/2/13	PEDR		Maria-COI_plate5	Sample	Insectivore 											
+1821-20694-COI	F5	Kauai	AKIK	Akikiki	1821-20694	3/20/17	HPK		Maria-COI_plate1	Sample	Insectivore 											
+1821-20712-COI	C1	Kauai	AKIK	Akikiki	1821-20712	12/12/17	HPK		Maria-COI_plate1	Sample	Insectivore 											
+1821-20774-COI	A8	Kauai	AKIK	Akikiki	1821-20774	11/5/16	MOH		Maria-COI_plate1	Sample	Insectivore 											
+1821-20775-COI	H7	Kauai	AKIK	Akikiki	1821-20775	11/5/16	MOH		Maria-COI_plate1	Sample	Insectivore 											
+1821-21326-COI	B8	Kauai	AKIK	Akikiki	1821-21326	5/5/17	MOH		Maria-COI_plate1	Sample	Insectivore 											
+1821-21360-COI	G8	Kauai	AKIK	Akikiki	1821-21360	3/25/17	HPK		Maria-COI_plate1	Sample	Insectivore 											
+1821-21368-COI	C8	Kauai	AKIK	Akikiki	1821-21368	4/9/17	HPK		Maria-COI_plate1	Sample	Insectivore 											
+1821-21371-COI	E1	Kauai	AKIK	Akikiki	1821-21371	4/11/17	HPK		Maria-COI_plate1	Sample	Insectivore 											
+1821-21373-COI	D1	Kauai	AKIK	Akikiki	1821-21373	4/13/17	HPK		Maria-COI_plate1	Sample	Insectivore 											
+1821-21381-COI	E5	Kauai	AKIK	Akikiki	1821-21381	4/25/17	HPK		Maria-COI_plate1	Sample	Insectivore 											
+1821-21403-COI	B2	Kauai	AKIK	Akikiki	1821-21403	2/24/18	UUK		Maria-COI_plate1	Sample	Insectivore 											
+1821-21407-COI	D8	Kauai	AKIK	Akikiki	1821-21407	2/27/18	UUK		Maria-COI_plate1	Sample	Insectivore 											
+1821-21415-COI	F8	Kauai	AKIK	Akikiki	1821-21415	3/26/18	UUK		Maria-COI_plate1	Sample	Insectivore 											
+1821-21422-COI	A2	Kauai	AKIK	Akikiki	1821-21422	5/19/19	HPK		Maria-COI_plate1	Sample	Insectivore 											
+2280-37786-COI	G1	Kauai	AKIK	Akikiki	2280-37786	2/23/19	HPK		Maria-COI_plate1	Sample	Insectivore 											
+2280-37788-COI	B1	Kauai	AKIK	Akikiki	2280-37788	2/23/19	HPK		Maria-COI_plate1	Sample	Insectivore 											
+2631-36106-COI	F1	Kauai	AKIK	Akikiki	2631-36106	1/20/18	HPK		Maria-COI_plate1	Sample	Insectivore 											
+2631-36111-COI	H1	Kauai	AKIK	Akikiki	2631-36111	1/25/18	HPK		Maria-COI_plate1	Sample	Insectivore 											
+2631-36142-COI	E8	Kauai	AKIK	Akikiki	2631-36142	5/7/18	HPK		Maria-COI_plate1	Sample	Insectivore 											
+2631-36158-COI	D5	Kauai	AKIK	Akikiki	2631-36158	6/3/19	HPK		Maria-COI_plate1	Sample	Insectivore 											
+1661-42921-COI	A8	Big Island	HCRE	Alawi 	1661-42921	1/28/20	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+1661-42969-COI	H10	Big Island	HCRE	Alawi 	1661-42969	9/4/15	PEDR		Maria-COI_plate3	Sample	Insectivore 											
+1661-42970-COI	A12	Big Island	HCRE	Alawi 	1661-42970	4/19/16	PEDR		Maria-COI_plate3	Sample	Insectivore 											
+1661-42996-COI	C10	Big Island	HCRE	Alawi 	1661-42996	5/8/16	KOAR		Maria-COI_plate3	Sample	Insectivore 											
+1691-49199-COI	F5	Big Island	HCRE	Alawi 	1691-49199	1/28/20	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+1831-47881-COI	A10	Big Island	HCRE	Alawi 	1831-47881	2/28/16	KOAR		Maria-COI_plate3	Sample	Insectivore 											
+1831-93065-COI	E7	Big Island	HCRE	Alawi 	1831-93065	3/23/16	KOAR		Maria-COI_plate3	Sample	Insectivore 											
+1851-54934-COI	H6	Big Island	HCRE	Alawi 	1851-54934	2/25/16	KOAR		Maria-COI_plate3	Sample	Insectivore 											
+2020-40784-COI	E8	Big Island	HCRE	Alawi 	2020-40784	10/7/15	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2350-24351-COI	B12	Big Island	HCRE	Alawi 	2350-24351	3/14/15	KOAR		Maria-COI_plate3	Sample	Insectivore 											
+2591-08281-COI	E11	Big Island	HCRE	Alawi 	2591-08281	1/14/20	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2591-08286-011420-COI	F10	Big Island	HCRE	Alawi 	2591-08286	1/14/20	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2591-08286-011620-COI	G5	Big Island	HCRE	Alawi 	2591-08286	1/16/20	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2591-08303-COI	H9	Big Island	HCRE	Alawi 	2591-08303	10/24/19	HWOW		Maria-COI_plate3	Sample	Insectivore 											
+2591-26695-COI	F6	Big Island	HCRE	Alawi 	2591-26695	5/26/15	PEDR		Maria-COI_plate3	Sample	Insectivore 											
+2591-26789-COI	G6	Big Island	HCRE	Alawi 	2591-26789	1/16/20	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2631-11687-031016-COI	C8	Big Island	HCRE	Alawi 	2631-11687	3/10/16	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+2631-11687-102419-COI	C6	Big Island	HCRE	Alawi 	2631-11687	10/24/19	HWOU		Maria-COI_plate3	Sample	Insectivore 											
+2631-11708-COI	H11	Big Island	HCRE	Alawi 	2631-11708	4/19/16	PEDR		Maria-COI_plate3	Sample	Insectivore 											
+2631-11780-COI	G7	Big Island	HCRE	Alawi 	2631-11780	3/29/16	KOAR		Maria-COI_plate3	Sample	Insectivore 											
+2631-11782-COI	E10	Big Island	HCRE	Alawi 	2631-11782	3/14/16	KOAR		Maria-COI_plate3	Sample	Insectivore 											
+2631-11845-COI	A7	Big Island	HCRE	Alawi 	2631-11845	3/26/16	PUAK		Maria-COI_plate3	Sample	Insectivore 											
+1821-21384-COI	A7	Kauai	ANIA	Anianiau	1821-21384	6/3/17	HPK		Maria-COI_plate1	Sample	Generalist											
+1821-21385-COI	C10	Kauai	ANIA	Anianiau	1821-21385	6/3/17	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-09228-COI	A10	Kauai	ANIA	Anianiau	2280-09228	7/3/17	NA		Maria-COI_plate2	Sample	Generalist											
+2280-09268-COI	D10	Kauai	ANIA	Anianiau	2280-09268	12/7/15	MOH		Maria-COI_plate1	Sample	Generalist											
+2280-09271-COI	C7	Kauai	ANIA	Anianiau	2280-09271	12/8/15	MOH		Maria-COI_plate1	Sample	Generalist											
+2280-09288-COI	G6	Kauai	ANIA	Anianiau	2280-09288	7/13/16	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-27728-COI	A9	Kauai	ANIA	Anianiau	2280-27728	12/10/17	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-37656-COI	B2	Kauai	ANIA	Anianiau	2280-37656	2/24/18	NA		Maria-COI_plate3	Sample	Generalist											
+2280-37657-COI	C3	Kauai	ANIA	Anianiau	2280-37657	10/12/19	MOH		Maria-COI_plate1	Sample	Generalist											
+2280-37669-COI	C2	Kauai	ANIA	Anianiau	2280-37669	3/12/18	UUK		Maria-COI_plate1	Sample	Generalist											
+2280-37685-COI	D3	Kauai	ANIA	Anianiau	2280-37685	10/10/19	MOH		Maria-COI_plate1	Sample	Generalist											
+2280-37699-COI	E3	Kauai	ANIA	Anianiau	2280-37699	10/12/19	MOH		Maria-COI_plate1	Sample	Generalist											
+2280-37710-COI	D2	Kauai	ANIA	Anianiau	2280-37710	4/8/17	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-37717-COI	A3	Kauai	ANIA	Anianiau	2280-37717	5/31/17	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-37731-022319-COI	A2	Kauai	ANIA	Anianiau	2280-37731	2/23/19	NA		Maria-COI_plate3	Sample	Generalist											
+2280-37731-121217-COI	E2	Kauai	ANIA	Anianiau	2280-37731	12/12/17	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-37739-COI	G11	Kauai	ANIA	Anianiau	2280-37739	2/2/18	NA		Maria-COI_plate2	Sample	Generalist											
+2280-37740-COI	H2	Kauai	ANIA	Anianiau	2280-37740	2/6/18	HPK		Maria-COI_plate1	Sample	Generalist											
+2520-84342-COI	H8	Kauai	ANIA	Anianiau	2520-84342	1/30/17	HPK		Maria-COI_plate1	Sample	Generalist											
+2520-89339-COI	B10	Kauai	ANIA	Anianiau	2520-89339	1/31/17	HPK		Maria-COI_plate1	Sample	Generalist											
+2520-89358-COI	B7	Kauai	ANIA	Anianiau	2520-89358	5/31/17	HPK		Maria-COI_plate1	Sample	Generalist											
+2520-89360-COI	G2	Kauai	ANIA	Anianiau	2520-89360	1/21/18	HPK		Maria-COI_plate1	Sample	Generalist											
+2520-89361-COI	D1	Kauai	ANIA	Anianiau	2520-89361	1/21/18	NA		Maria-COI_plate3	Sample	Generalist											
+2520-89365-COI	E12	Kauai	ANIA	Anianiau	2520-89365	1/25/18	NA		Maria-COI_plate2	Sample	Generalist											
+2520-89368-COI	D11	Kauai	ANIA	Anianiau	2520-89368	2/7/18	NA		Maria-COI_plate2	Sample	Generalist											
+2520-89380-COI	H2	Kauai	ANIA	Anianiau	2520-89380	2/19/19	NA		Maria-COI_plate3	Sample	Generalist											
+2520-89382-COI	F2	Kauai	ANIA	Anianiau	2520-89382	2/2/19	HPK		Maria-COI_plate1	Sample	Generalist											
+2520-89383-COI	H6	Kauai	ANIA	Anianiau	2520-89383	2/24/18	HPK		Maria-COI_plate1	Sample	Generalist											
+2520-89415-COI	B3	Kauai	ANIA	Anianiau	2520-89415	12/16/17	HPK		Maria-COI_plate1	Sample	Generalist											
+1661-42928-COI	G7	Big Island	APAP	Apapane	1661-42928	4/26/16	KOAR		Maria-COI_plate4	Sample	Nectarivore											
+1821-21340-COI	E6	Kauai	APAP	Apapane	1821-21340	7/10/16	HPK		Maria-COI_plate1	Sample	Nectarivore											
+1831-93061-COI	H8	Big Island	APAP	Apapane	1831-93061	3/14/15	KOAR		Maria-COI_plate4	Sample	Nectarivore											
+1861-01140-COI	G3	Kauai	APAP	Apapane	1861-01140	10/10/19	MOH		Maria-COI_plate1	Sample	Nectarivore											
+1861-01486-COI	E10	Kauai	APAP	Apapane	1861-01486	2/12/18	NA		Maria-COI_plate2	Sample	Nectarivore											
+1861-01494-COI	E1	Kauai	APAP	Apapane	1861-01494	6/3/17	NA		Maria-COI_plate3	Sample	Nectarivore											
+1861-01496-COI	F1	Kauai	APAP	Apapane	1861-01496	5/31/17	NA		Maria-COI_plate3	Sample	Nectarivore											
+1871-25574-COI	H10	Kauai	APAP	Apapane	1871-25574	1/26/18	NA		Maria-COI_plate2	Sample	Nectarivore											
+1871-25575-COI	H1	Kauai	APAP	Apapane	1871-25575	2/16/18	NA		Maria-COI_plate3	Sample	Nectarivore											
+1881-73672-COI	B2	Big Island	APAP	Apapane	1881-73672	4/21/20	KIVO		Maria-COI_plate5	Sample	Nectarivore											
+1881-73673-COI	C6	Big Island	APAP	Apapane	1881-73673	4/22/20	KIVO		Maria-COI_plate4	Sample	Nectarivore											
+1881-73676-COI	E2	Big Island	APAP	Apapane	1881-73676	4/24/20	BYLE		Maria-COI_plate4	Sample	Nectarivore											
+1881-73687-COI	G2	Big Island	APAP	Apapane	1881-73687	4/28/20	KIPA		Maria-COI_plate4	Sample	Nectarivore											
+1881-73720-COI	F2	Big Island	APAP	Apapane	1881-73720	6/9/20	KONA		Maria-COI_plate4	Sample	Nectarivore											
+2020-40648-COI	D9	Big Island	APAP	Apapane	2020-40648	3/2/13	PEDR		Maria-COI_plate3	Sample	Nectarivore											
+2591-08246-COI	E6	Maui	APAP	Apapane	2591-08246	12/5/19	WEST030		Maria-COI_plate2	Sample	Nectarivore											
+2591-08250-COI	B6	Maui	APAP	Apapane	2591-08250	11/25/19	PKEA016		Maria-COI_plate2	Sample	Nectarivore											
+2591-08264-COI	E5	Maui	APAP	Apapane	2591-08264	12/5/19	WEST		Maria-COI_plate2	Sample	Nectarivore											
+2591-08294-COI	E3	Big Island	APAP	Apapane	2591-08294	1/17/20	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+2591-08300-COI	B9	Big Island	APAP	Apapane	2591-08300	1/28/20	PUAK		Maria-COI_plate3	Sample	Nectarivore											
+2591-56427-COI	F12	Maui	APAP	Apapane	2591-56427	6/9/20	FSB		Maria-COI_plate1	Sample	Nectarivore											
+2591-56430-COI	A1	Maui	APAP	Apapane	2591-56430	6/20/20	HR2		Maria-COI_plate2	Sample	Nectarivore											
+2591-56438-COI	G7	Maui	APAP	Apapane	2591-56438	6/21/20	HR2		Maria-COI_plate2	Sample	Nectarivore											
+2621-19454-COI	D8	Big Island	APAP	Apapane	2621-19454	2/25/16	KOAR		Maria-COI_plate4	Sample	Nectarivore											
+2621-19484-COI	A1	Big Island	APAP	Apapane	2621-19484	5/12/14	KOAR		Maria-COI_plate5	Sample	Nectarivore											
+2631-11709-COI	H7	Big Island	APAP	Apapane	2631-11709	2/14/16	PEDR		Maria-COI_plate4	Sample	Nectarivore											
+2631-11710-COI	C8	Big Island	APAP	Apapane	2631-11710	2/14/16	PEDR		Maria-COI_plate4	Sample	Nectarivore											
+2631-11719-COI	F7	Big Island	APAP	Apapane	2631-11719	2/15/16	KOAR		Maria-COI_plate4	Sample	Nectarivore											
+2631-11736-COI	F8	Big Island	APAP	Apapane	2631-11736	2/24/16	PEDR		Maria-COI_plate4	Sample	Nectarivore											
+2631-11813-COI	C7	Big Island	APAP	Apapane	2631-11813	3/19/16	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+2631-11920-COI	A9	Big Island	APAP	Apapane	2631-11920	4/22/16	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+2631-11959-COI	E8	Big Island	APAP	Apapane	2631-11959	4/26/16	KOAR		Maria-COI_plate4	Sample	Nectarivore											
+2631-36124-COI	F3	Kauai	APAP	Apapane	2631-36124	2/24/18	HPK		Maria-COI_plate1	Sample	Nectarivore											
+2631-36129-COI	H11	Kauai	APAP	Apapane	2631-36129	3/30/18	NA		Maria-COI_plate2	Sample	Nectarivore											
+2631-36250-COI	C12	Maui	APAP	Apapane	2631-36250	6/21/20	Classic		Maria-COI_plate1	Sample	Nectarivore											
+2631-36258-COI	D12	Maui	APAP	Apapane	2631-36258	6/20/20	Classic		Maria-COI_plate1	Sample	Nectarivore											
+2631-36259-COI	E12	Maui	APAP	Apapane	2631-36259	6/20/20	Classic		Maria-COI_plate1	Sample	Nectarivore											
+2631-36269-COI	F7	Maui	APAP	Apapane	2631-36269	6/7/20	FSB		Maria-COI_plate2	Sample	Nectarivore											
+2631-36271-COI	D7	Maui	APAP	Apapane	2631-36271	6/7/20	FSB		Maria-COI_plate2	Sample	Nectarivore											
+2631-36272-COI	E7	Maui	APAP	Apapane	2631-36272	6/7/20	FSB		Maria-COI_plate2	Sample	Nectarivore											
+2631-37367-COI	B1	Maui	APAP	Apapane	2631-37367	5/11/19	NAK		Maria-COI_plate2	Sample	Nectarivore											
+2631-37371-COI	C1	Maui	APAP	Apapane	2631-37371	5/12/19	NAK		Maria-COI_plate2	Sample	Nectarivore											
+2631-37372-COI	D1	Maui	APAP	Apapane	2631-37372	5/12/19	NAK		Maria-COI_plate2	Sample	Nectarivore											
+2721-12120-COI	G8	Big Island	APAP	Apapane	2721-12120	5/20/16	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+2721-50720-COI	H2	Big Island	APAP	Apapane	2721-50720	11/5/19	KIPA		Maria-COI_plate4	Sample	Nectarivore											
+2721-50726-COI	A3	Big Island	APAP	Apapane	2721-50726	11/6/19	KIPA		Maria-COI_plate4	Sample	Nectarivore											
+2721-50742-COI	B3	Big Island	APAP	Apapane	2721-50742	11/6/19	KIPA		Maria-COI_plate4	Sample	Nectarivore											
+2721-50749-COI	B8	Big Island	APAP	Apapane	2721-50749	11/6/19	KIPA		Maria-COI_plate4	Sample	Nectarivore											
+2721-50774-COI	A8	Big Island	APAP	Apapane	2721-50774	11/7/19	KIPA		Maria-COI_plate4	Sample	Nectarivore											
+2771-14774-COI	G1	Big Island	APAP	Apapane	2771-14774	6/29/20	KONA		Maria-COI_plate5	Sample	Nectarivore											
+2821-57854-COI	A6	Maui	APAP	Apapane	2821-57854	11/7/19	CHAR005		Maria-COI_plate2	Sample	Nectarivore											
+2821-57874-COI	C5	Maui	APAP	Apapane	2821-57874	12/5/19	WEST029		Maria-COI_plate2	Sample	Nectarivore											
+1490-89708-COI	G8	Big Island	HAAM	Hawaii Amakihi 	1490-89708	5/7/20	KIOL		Maria-COI_plate3	Sample	Generalist											
+1490-89710-COI	D3	Big Island	HAAM	Hawaii Amakihi 	1490-89710	5/8/20	KIOL		Maria-COI_plate4	Sample	Generalist											
+1490-89715-COI	E7	Big Island	HAAM	Hawaii Amakihi 	1490-89715	5/14/20	KAHU		Maria-COI_plate4	Sample	Generalist											
+1601-34270-COI	A4	Big Island	HAAM	Hawaii Amakihi 	1601-34270	6/23/20	BOWL		Maria-COI_plate3	Sample	Generalist											
+1601-34271-COI	H3	Big Island	HAAM	Hawaii Amakihi 	1601-34271	6/23/20	BOWL		Maria-COI_plate3	Sample	Generalist											
+1601-34274-COI	G3	Big Island	HAAM	Hawaii Amakihi 	1601-34274	6/23/20	BOWL		Maria-COI_plate3	Sample	Generalist											
+1601-34276-COI	B9	Big Island	HAAM	Hawaii Amakihi 	1601-34276	6/23/20	BOWL		Maria-COI_plate4	Sample	Generalist											
+1601-34302-COI	C4	Big Island	HAAM	Hawaii Amakihi 	1601-34302	6/30/20	GUZZ		Maria-COI_plate3	Sample	Generalist											
+1601-34314-COI	E4	Big Island	HAAM	Hawaii Amakihi 	1601-34314	6/30/20	GUZZ		Maria-COI_plate3	Sample	Generalist											
+1821-67452-COI	H9	Maui	HAAM	Hawaii Amakihi 	1821-67452	6/6/19	PALIKU		Maria-COI_plate2	Sample	Generalist											
+1821-67457-COI	G2	Maui	HAAM	Hawaii Amakihi 	1821-67457	6/6/19	PALIKU		Maria-COI_plate2	Sample	Generalist											
+1821-67459-COI	D3	Maui	HAAM	Hawaii Amakihi 	1821-67459	6/6/19	PALIKU		Maria-COI_plate2	Sample	Generalist											
+1821-67460-COI	H2	Maui	HAAM	Hawaii Amakihi 	1821-67460	6/6/19	PALIKU		Maria-COI_plate2	Sample	Generalist											
+1821-67465-COI	B3	Maui	HAAM	Hawaii Amakihi 	1821-67465	6/6/19	PALIKU		Maria-COI_plate2	Sample	Generalist											
+1821-67473-COI	C3	Maui	HAAM	Hawaii Amakihi 	1821-67473	6/6/19	PALIKU		Maria-COI_plate2	Sample	Generalist											
+1821-67475-COI	F2	Maui	HAAM	Hawaii Amakihi 	1821-67475	6/6/19	Paliku		Maria-COI_plate2	Sample	Generalist											
+1821-67479-COI	A3	Maui	HAAM	Hawaii Amakihi 	1821-67479	6/6/19	PALIKU		Maria-COI_plate2	Sample	Generalist											
+1821-67488-COI	H1	Maui	HAAM	Hawaii Amakihi 	1821-67488	6/12/19	KKOA		Maria-COI_plate2	Sample	Generalist											
+1821-67578-COI	E1	Maui	HAAM	Hawaii Amakihi 	1821-67578	6/8/20	FSB		Maria-COI_plate2	Sample	Generalist											
+1881-73517-COI	D6	Big Island	HAAM	Hawaii Amakihi 	1881-73517	2/26/20	PFBS		Maria-COI_plate4	Sample	Generalist											
+1881-73578-COI	A7	Big Island	HAAM	Hawaii Amakihi 	1881-73578	2/27/20	PFBS		Maria-COI_plate4	Sample	Generalist											
+1881-73614-COI	D7	Big Island	HAAM	Hawaii Amakihi 	1881-73614	3/13/20	AIRA		Maria-COI_plate4	Sample	Generalist											
+1881-73624-COI	D1	Big Island	HAAM	Hawaii Amakihi 	1881-73624	3/12/20	AIRA		Maria-COI_plate5	Sample	Generalist											
+1881-73644-COI	F3	Big Island	HAAM	Hawaii Amakihi 	1881-73644	3/19/20	MAUL		Maria-COI_plate4	Sample	Generalist											
+1881-73647-COI	C4	Big Island	HAAM	Hawaii Amakihi 	1881-73647	3/19/20	MANU		Maria-COI_plate4	Sample	Generalist											
+1881-73656-COI	A2	Big Island	HAAM	Hawaii Amakihi 	1881-73656	4/15/20	UPKE		Maria-COI_plate5	Sample	Generalist											
+1881-73708-COI	C3	Big Island	HAAM	Hawaii Amakihi 	1881-73708	6/5/20	KAUF		Maria-COI_plate4	Sample	Generalist											
+1881-73714-COI	F1	Big Island	HAAM	Hawaii Amakihi 	1881-73714	6/9/20	KONA		Maria-COI_plate4	Sample	Generalist											
+1881-73786-COI	H1	Big Island	HAAM	Hawaii Amakihi 	1881-73786	6/7/20	PWWA		Maria-COI_plate4	Sample	Generalist											
+1921-78664-COI	G1	Big Island	HAAM	Hawaii Amakihi 	1921-78664	4/15/20	UPKE		Maria-COI_plate4	Sample	Generalist											
+2591-08204-COI	F1	Big Island	HAAM	Hawaii Amakihi 	2591-08204	7/23/19	BIOX		Maria-COI_plate5	Sample	Generalist											
+2591-08414-COI	C2	Big Island	HAAM	Hawaii Amakihi 	2591-08414	2/5/20	NANZ		Maria-COI_plate5	Sample	Generalist											
+2591-08508-COI	H8	Big Island	HAAM	Hawaii Amakihi 	2591-08508	7/9/20	PWWA		Maria-COI_plate3	Sample	Generalist											
+2591-56400-COI	A2	Maui	HAAM	Hawaii Amakihi 	2591-56400	5/12/19	NAK		Maria-COI_plate2	Sample	Generalist											
+2591-56422-COI	G1	Maui	HAAM	Hawaii Amakihi 	2591-56422	6/8/20	FSB		Maria-COI_plate2	Sample	Generalist											
+2591-56426-COI	B8	Maui	HAAM	Hawaii Amakihi 	2591-56426	6/9/20	FSB		Maria-COI_plate2	Sample	Generalist											
+2631-36262-COI	H7	Maui	HAAM	Hawaii Amakihi 	2631-36262	6/9/20	FSB		Maria-COI_plate2	Sample	Generalist											
+2631-36278-COI	A8	Maui	HAAM	Hawaii Amakihi 	2631-36278	6/6/20	FSB		Maria-COI_plate2	Sample	Generalist											
+2631-36279-COI	F1	Maui	HAAM	Hawaii Amakihi 	2631-36279	6/9/20	FSB		Maria-COI_plate2	Sample	Generalist											
+2631-37362-COI	E2	Maui	HAAM	Hawaii Amakihi 	2631-37362	5/11/19	NAK		Maria-COI_plate2	Sample	Generalist											
+2631-37365-COI	D2	Maui	HAAM	Hawaii Amakihi 	2631-37365	5/11/19	NAK		Maria-COI_plate2	Sample	Generalist											
+2631-37373-COI	C2	Maui	HAAM	Hawaii Amakihi 	2631-37373	5/12/19	NAK		Maria-COI_plate2	Sample	Generalist											
+2631-37374-COI	B2	Maui	HAAM	Hawaii Amakihi 	2631-37374	5/12/19	NAK		Maria-COI_plate2	Sample	Generalist											
+2631-37375-COI	G9	Maui	HAAM	Hawaii Amakihi 	2631-37375	5/12/19	NAK		Maria-COI_plate2	Sample	Generalist											
+2711-81023-COI	A2	Big Island	HAAM	Hawaii Amakihi 	2711-81023	2/3/20	NANI		Maria-COI_plate4	Sample	Generalist											
+2711-81025-COI	D4	Big Island	HAAM	Hawaii Amakihi 	2711-81025	2/4/20	MANU		Maria-COI_plate4	Sample	Generalist											
+2721-53274-COI	E1	Big Island	HAAM	Hawaii Amakihi 	2721-53274	2/7/20	MARC		Maria-COI_plate4	Sample	Generalist											
+2781-68624-COI	B4	Big Island	HAAM	Hawaii Amakihi 	2781-68624	5/7/20	BOWL		Maria-COI_plate3	Sample	Generalist											
+2781-68665-COI	D4	Big Island	HAAM	Hawaii Amakihi 	2781-68665	5/29/20	GUZZ		Maria-COI_plate3	Sample	Generalist											
+2781-68700-COI	F3	Big Island	HAAM	Hawaii Amakihi 	2781-68700	6/23/20	BOWL		Maria-COI_plate3	Sample	Generalist											
+1601-34228-COI	G10	Big Island	HOFI	House Finch	1601-34228	5/31/20	BOWL		Maria-COI_plate4	Sample	Granivore											
+1601-34254-COI	H10	Big Island	HOFI	House Finch	1601-34254	6/9/20	GUZZ		Maria-COI_plate4	Sample	Granivore											
+1601-34261-COI	F10	Big Island	HOFI	House Finch	1601-34261	6/9/20	GUZZ		Maria-COI_plate4	Sample	Granivore											
+1881-73623-COI	B10	Big Island	HOFI	House Finch	1881-73623	3/12/20	AIRA		Maria-COI_plate3	Sample	Granivore											
+1881-73630-COI	B7	Big Island	HOFI	House Finch	1881-73630	4/28/20	DIDA		Maria-COI_plate3	Sample	Granivore											
+1881-73698-COI	C7	Big Island	HOFI	House Finch	1881-73698	5/5/20	KIOL		Maria-COI_plate3	Sample	Granivore											
+1881-73772-COI	D5	Big Island	HOFI	House Finch	1881-73772	6/25/20	MANU		Maria-COI_plate3	Sample	Granivore											
+2771-14410-COI	B6	Big Island	HOFI	House Finch	2771-14410	6/26/19	MANU		Maria-COI_plate3	Sample	Granivore											
+2781-68658-COI	H9	Big Island	HOFI	House Finch	2781-68658	5/29/20	GUZZ		Maria-COI_plate4	Sample	Granivore											
+2781-68697-COI	F9	Big Island	HOFI	House Finch	2781-68697	6/9/20	GUZZ		Maria-COI_plate4	Sample	Granivore											
+1711-72698-032616-COI	C5	Big Island	IIWI	Iiwi	1711-72698	3/26/16	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+1711-72698-052216-COI	G6	Big Island	IIWI	Iiwi	1711-72698	5/22/16	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+1821-01491-COI	A4	Kauai	IIWI	Iiwi	1821-01491	12/8/17	HPK		Maria-COI_plate1	Sample	Nectarivore											
+1861-01296-013017-COI	C10	Kauai	IIWI	Iiwi	1861-01296	1/30/17	HPK		Maria-COI_plate2	Sample	Nectarivore											
+1861-01296-013117-COI	D6	Kauai	IIWI	Iiwi	1861-01296	1/31/17	HPK		Maria-COI_plate1	Sample	Nectarivore											
+1861-01487-COI	H3	Kauai	IIWI	Iiwi	1861-01487	1/24/18	HPK		Maria-COI_plate1	Sample	Nectarivore											
+1861-01662-COI	A10	Big Island	IIWI	Iiwi	1861-01662	10/17/19	BH		Maria-COI_plate4	Sample	Nectarivore											
+1871-25566-COI	F6	Kauai	IIWI	Iiwi	1871-25566	1/16/17	KWK		Maria-COI_plate1	Sample	Nectarivore											
+1871-25580-COI	F2	Kauai	IIWI	Iiwi	1871-25580	2/19/19	NA		Maria-COI_plate3	Sample	Nectarivore											
+1931-02151-COI	B6	Big Island	IIWI	Iiwi	1931-02151	3/15/16	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+2441-93911-COI	C8	Maui	IIWI	Iiwi	2441-93911	6/6/20	FSB		Maria-COI_plate2	Sample	Nectarivore											
+2441-93918-COI	E3	Maui	IIWI	Iiwi	2441-93918	6/20/20	HR2		Maria-COI_plate2	Sample	Nectarivore											
+2441-94079-COI	F3	Maui	IIWI	Iiwi	2441-94079	6/6/19	PALIKU		Maria-COI_plate2	Sample	Nectarivore											
+2591-08284-COI	D2	Big Island	IIWI	Iiwi	2591-08284	1/14/20	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+2661-06676-COI	G9	Big Island	IIWI	Iiwi	2661-06676	3/26/16	PUAK		Maria-COI_plate3	Sample	Nectarivore											
+2691-20725-COI	D5	Big Island	IIWI	Iiwi	2691-20725	4/19/16	PEDR		Maria-COI_plate4	Sample	Nectarivore											
+2691-20878-COI	H5	Big Island	IIWI	Iiwi	2691-20878	5/19/16	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+2691-20897-COI	E9	Big Island	IIWI	Iiwi	2691-20897	2/28/16	KOAR		Maria-COI_plate3	Sample	Nectarivore											
+2711-72606-COI	F6	Big Island	IIWI	Iiwi	2711-72606	2/28/16	KOAR		Maria-COI_plate4	Sample	Nectarivore											
+2711-72633-COI	F4	Big Island	IIWI	Iiwi	2711-72633	3/1/16	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+2711-72695-COI	G5	Big Island	IIWI	Iiwi	2711-72695	3/24/16	PEDR		Maria-COI_plate4	Sample	Nectarivore											
+2711-72696-COI	E5	Big Island	IIWI	Iiwi	2711-72696	3/24/16	PEDR		Maria-COI_plate4	Sample	Nectarivore											
+2711-72708-COI	E6	Big Island	IIWI	Iiwi	2711-72708	3/29/20	KOAR		Maria-COI_plate4	Sample	Nectarivore											
+2711-72719-COI	H4	Big Island	IIWI	Iiwi	2711-72719	4/1/16	PEDR		Maria-COI_plate4	Sample	Nectarivore											
+2711-72760-COI	A6	Big Island	IIWI	Iiwi	2711-72760	4/25/16	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+2711-72767-COI	A5	Big Island	IIWI	Iiwi	2711-72767	4/26/16	KOAR		Maria-COI_plate4	Sample	Nectarivore											
+2711-72804-COI	B5	Big Island	IIWI	Iiwi	2711-72804	5/10/16	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+2711-72821-COI	F5	Big Island	IIWI	Iiwi	2711-72821	5/10/16	PUAK		Maria-COI_plate4	Sample	Nectarivore											
+2711-81009-COI	B8	Big Island	IIWI	Iiwi	2711-81009	1/17/20	PUAK		Maria-COI_plate3	Sample	Nectarivore											
+2711-81113-COI	B2	Big Island	IIWI	Iiwi	2711-81113	6/16/20	MAUL		Maria-COI_plate4	Sample	Nectarivore											
+2711-81126-COI	C2	Big Island	IIWI	Iiwi	2711-81126	6/17/20	MAUL		Maria-COI_plate4	Sample	Nectarivore											
+2711-81133-COI	E1	Big Island	IIWI	Iiwi	2711-81133	6/17/20	MAUL		Maria-COI_plate5	Sample	Nectarivore											
+2711-81137-COI	C1	Big Island	IIWI	Iiwi	2711-81137	6/17/20	MALU		Maria-COI_plate5	Sample	Nectarivore											
+2711-81138-COI	D2	Big Island	IIWI	Iiwi	2711-81138	6/17/20	MAUL		Maria-COI_plate5	Sample	Nectarivore											
+2711-81139-COI	F9	Big Island	IIWI	Iiwi	2711-81139	6/17/20	MAUL		Maria-COI_plate3	Sample	Nectarivore											
+2711-81141-COI	C3	Big Island	IIWI	Iiwi	2711-81141	6/17/20	MAUL		Maria-COI_plate3	Sample	Nectarivore											
+2821-57856-COI	F6	Maui	IIWI	Iiwi	2821-57856	11/8/19	CHAR016		Maria-COI_plate2	Sample	Nectarivore											
+2821-57897-COI	C6	Maui	IIWI	Iiwi	2821-57897	12/8/19	WEST		Maria-COI_plate2	Sample	Nectarivore											
+2821-57899-COI	G6	Maui	IIWI	Iiwi	2821-57899	12/8/19	WEST		Maria-COI_plate2	Sample	Nectarivore											
+2821-59859-COI	D5	Maui	IIWI	Iiwi	2821-59859	11/11/19	CHAR		Maria-COI_plate2	Sample	Nectarivore											
+2851-57862-COI	F2	Big Island	IIWI	Iiwi	2851-57862	1/25/20	PKEA		Maria-COI_plate5	Sample	Nectarivore											
+IIWI-3-COI	G5	Maui	IIWI	Iiwi	-3	12/8/19	WEST077		Maria-COI_plate2	Sample	Nectarivore											
+1821-20777-COI	E9	Kauai	KAAM	Kauai Amakihi	1821-20777	11/16/16	KWK		Maria-COI_plate1	Sample	Generalist											
+1821-20779-COI	H9	Kauai	KAAM	Kauai Amakihi	1821-20779	1/16/17	KWK		Maria-COI_plate1	Sample	Generalist											
+1821-20782-COI	C6	Kauai	KAAM	Kauai Amakihi	1821-20782	1/16/17	KWK		Maria-COI_plate1	Sample	Generalist											
+1821-20790-COI	E10	Kauai	KAAM	Kauai Amakihi	1821-20790	12/10/17	HPK		Maria-COI_plate1	Sample	Generalist											
+1821-21346-COI	F9	Kauai	KAAM	Kauai Amakihi	1821-21346	1/27/17	HPK		Maria-COI_plate1	Sample	Generalist											
+1821-21350-COI	B5	Kauai	KAAM	Kauai Amakihi	1821-21350	1/29/17	HPK		Maria-COI_plate1	Sample	Generalist											
+1821-21359-COI	G9	Kauai	KAAM	Kauai Amakihi	1821-21359	3/24/17	HPK		Maria-COI_plate1	Sample	Generalist											
+1821-21393-COI	E11	Kauai	KAAM	Kauai Amakihi	1821-21393	7/9/17	NA		Maria-COI_plate2	Sample	Generalist											
+1821-21426-COI	C5	Kauai	KAAM	Kauai Amakihi	1821-21426	10/10/19	MOH		Maria-COI_plate1	Sample	Generalist											
+1861-01131-COI	A5	Kauai	KAAM	Kauai Amakihi	1861-01131	6/6/17	UUK		Maria-COI_plate1	Sample	Generalist											
+1861-01132-COI	B10	Kauai	KAAM	Kauai Amakihi	1861-01132	6/6/17	NA		Maria-COI_plate2	Sample	Generalist											
+1861-01497-COI	D12	Kauai	KAAM	Kauai Amakihi	1861-01497	5/31/17	NA		Maria-COI_plate2	Sample	Generalist											
+2631-36104-012018-COI	D9	Kauai	KAAM	Kauai Amakihi	2631-36104	1/20/18	HPK		Maria-COI_plate1	Sample	Generalist											
+2631-36104-040118-COI	C12	Kauai	KAAM	Kauai Amakihi	2631-36104	4/1/18	HPK		Maria-COI_plate2	Sample	Generalist											
+2631-36105-COI	D10	Kauai	KAAM	Kauai Amakihi	2631-36105	1/20/18	NA		Maria-COI_plate2	Sample	Generalist											
+BK-WH-AL-GN-COI	A10	Kauai	KAAM	Kauai Amakihi	"BK/WH,AL/GN"	1/8/17	KWK		Maria-COI_plate1	Sample	Generalist											
+BU-XX-OR-OR-COI	B6	Kauai	KAAM	Kauai Amakihi	BU/XX;OR/OR	1/8/17	PHT		Maria-COI_plate1	Sample	Generalist											
+1821-20628-COI	F12	Kauai	KAEL	Kauai Elepaio	1821-20628	1/31/17	NA		Maria-COI_plate2	Sample	Insectivore 											
+1821-20764-COI	B1	Kauai	KAEL	Kauai Elepaio	1821-20764	1/30/17	NA		Maria-COI_plate3	Sample	Insectivore 											
+1821-21342-COI	C1	Kauai	KAEL	Kauai Elepaio	1821-21342	7/8/17	NA		Maria-COI_plate3	Sample	Insectivore 											
+2280-09294-COI	G10	Kauai	KAEL	Kauai Elepaio	2280-09294	4/29/17	NA		Maria-COI_plate2	Sample	Insectivore 											
+2520-89366-COI	C2	Kauai	KAEL	Kauai Elepaio	2520-89366	2/16/18	NA		Maria-COI_plate3	Sample	Insectivore 											
+2520-89393-COI	E2	Kauai	KAEL	Kauai Elepaio	2520-89393	6/3/19	NA		Maria-COI_plate3	Sample	Insectivore 											
+2631-36134-COI	C11	Kauai	KAEL	Kauai Elepaio	2631-36134	4/1/18	NA		Maria-COI_plate2	Sample	Insectivore 											
+2631-36159-COI	G2	Kauai	KAEL	Kauai Elepaio	2631-36159	6/3/19	NA		Maria-COI_plate3	Sample	Insectivore 											
+WILD01-COI	E9	Maui	MAPA	Kiwikui	WILD01	10/29/20	WILD		Maria-COI_plate2	Sample	Insectivore 											
+WILD07-COI	D9	Maui	MAPA	Kiwikui	WILD07	10/26/19	WILD		Maria-COI_plate2	Sample	Insectivore 											
+WILD10-COI	A7	Maui	MAPA	Kiwikui	WILD10	10/26/19			Maria-COI_plate2	Sample	Insectivore 											
+WILD11-COI	C7	Maui	MAPA	Kiwikui	WILD11	10/26/19			Maria-COI_plate2	Sample	Insectivore 											
+WILD8-COI	B7	Maui	MAPA	Kiwikui	WILD8	10/26/19			Maria-COI_plate2	Sample	Insectivore 											
+1821-67468-COI	A5	Maui	MAAL	Maui Alauahio	1821-67468	6/6/19	PALIKU		Maria-COI_plate2	Sample	Insectivore 											
+1821-67472-COI	B5	Maui	MAAL	Maui Alauahio	1821-67472	6/6/19	PALIKU		Maria-COI_plate2	Sample	Insectivore 											
+1821-67480-COI	H4	Maui	MAAL	Maui Alauahio	1821-67480	6/6/19	PALIKU		Maria-COI_plate2	Sample	Insectivore 											
+1821-67576-COI	C4	Maui	MAAL	Maui Alauahio	1821-67576	6/9/20	FSB		Maria-COI_plate2	Sample	Insectivore 											
+1821-67581-COI	D4	Maui	MAAL	Maui Alauahio	1821-67581	6/7/20	FSB		Maria-COI_plate2	Sample	Insectivore 											
+2350-24067-COI	H5	Maui	MAAL	Maui Alauahio	2350-24067	12/8/19	WEST079		Maria-COI_plate2	Sample	Insectivore 											
+2591-08235-COI	D6	Maui	MAAL	Maui Alauahio	2591-08235	11/9/19	CHAR028		Maria-COI_plate2	Sample	Insectivore 											
+2591-08243-COI	F5	Maui	MAAL	Maui Alauahio	2591-08243	11/11/19	CHAR037		Maria-COI_plate2	Sample	Insectivore 											
+2591-08251-COI	H6	Maui	MAAL	Maui Alauahio	2591-08251	11/25/19	PKEA019		Maria-COI_plate2	Sample	Insectivore 											
+2591-08625-COI	H2	Maui	MAAL	Maui Alauahio	2591-08625	12/5/19	WEST028		Maria-COI_plate5	Sample	Insectivore 											
+2591-56420-COI	F8	Maui	MAAL	Maui Alauahio	2591-56420	6/6/20	FSB		Maria-COI_plate2	Sample	Insectivore 											
+2591-56432-COI	G4	Maui	MAAL	Maui Alauahio	2591-56432	6/21/20	HR2		Maria-COI_plate2	Sample	Insectivore 											
+2591-56433-COI	F4	Maui	MAAL	Maui Alauahio	2591-56433	6/21/20	HR2		Maria-COI_plate2	Sample	Insectivore 											
+2631-36266-COI	A9	Maui	MAAL	Maui Alauahio	2631-36266	6/8/20	FSB		Maria-COI_plate2	Sample	Insectivore 											
+2631-36268-COI	H8	Maui	MAAL	Maui Alauahio	2631-36268	6/7/20	FSB		Maria-COI_plate2	Sample	Insectivore 											
+2631-36273-COI	E8	Maui	MAAL	Maui Alauahio	2631-36273	6/7/20	FSB		Maria-COI_plate2	Sample	Insectivore 											
+2631-36274-COI	G8	Maui	MAAL	Maui Alauahio	2631-36274	6/7/20	FSB		Maria-COI_plate2	Sample	Insectivore 											
+2631-36275-COI	B9	Maui	MAAL	Maui Alauahio	2631-36275	6/6/20	FSB		Maria-COI_plate2	Sample	Insectivore 											
+2631-36277-COI	C9	Maui	MAAL	Maui Alauahio	2631-36277	6/6/20	FSB		Maria-COI_plate2	Sample	Insectivore 											
+2631-36281-COI	E4	Maui	MAAL	Maui Alauahio	2631-36281	6/5/20	FSB		Maria-COI_plate2	Sample	Insectivore 											
+2781-72518-COI	C11	Oahu	OAAM	Oahu Amakihi	2781-72518	7/13/20	WAAH		Maria-COI_plate1	Sample	Generalist											
+2781-72519-COI	D11	Oahu	OAAM	Oahu Amakihi	2781-72519	7/15/20	WAAH		Maria-COI_plate1	Sample	Generalist											
+2781-72520-COI	A11	Oahu	OAAM	Oahu Amakihi	2781-72520	7/15/20	WAAH		Maria-COI_plate1	Sample	Generalist											
+2781-72521-COI	H11	Oahu	OAAM	Oahu Amakihi	2781-72521	7/15/20	WAAH		Maria-COI_plate1	Sample	Generalist											
+2791-97723-COI	B12	Oahu	OAAM	Oahu Amakihi	2791-97723	6/23/20	Makiki		Maria-COI_plate1	Sample	Generalist											
+1841-12195-COI	G9	Big Island	PALI	Palila 	1841-12195	5/7/20	BOWL		Maria-COI_plate4	Sample	Granivore											
+1841-12200-COI	H4	Big Island	PALI	Palila 	1841-12200	5/13/20	BOWL		Maria-COI_plate3	Sample	Granivore											
+1841-12202-COI	A5	Big Island	PALI	Palila 	1841-12202	5/21/20	BOWL		Maria-COI_plate3	Sample	Granivore											
+1841-12203-COI	E9	Big Island	PALI	Palila 	1841-12203	5/29/20	GUZZ		Maria-COI_plate4	Sample	Granivore											
+1841-12204-COI	B10	Big Island	PALI	Palila 	1841-12204	6/3/20	GUZZ		Maria-COI_plate4	Sample	Granivore											
+1841-12208-COI	C10	Big Island	PALI	Palila 	1841-12208	6/3/20	GUZZ		Maria-COI_plate4	Sample	Granivore											
+1841-12218-COI	D9	Big Island	PALI	Palila 	1841-12218	6/30/20	GUZZ		Maria-COI_plate4	Sample	Granivore											
+1841-12219-COI	B5	Big Island	PALI	Palila 	1841-12219	6/30/20	GUZ		Maria-COI_plate3	Sample	Granivore											
+1841-12220-COI	C11	Big Island	PALI	Palila 	1841-12220	6/30/20	GUZZ		Maria-COI_plate4	Sample	Granivore											
+1801-98024-COI	F10	Kauai	PUAI	Puaiohi 	1801-98024	4/15/18	NA		Maria-COI_plate2	Sample	Frugivore											
+2301-10757-COI	B12	Kauai	PUAI	Puaiohi 	2301-10757	2/24/18	NA		Maria-COI_plate2	Sample	Frugivore											
+1871-25565-COI	E4	Kauai	JAWE	Warbling white-eye	1871-25565	11/8/16	MOH		Maria-COI_plate1	Sample	Generalist											
+2280-08965-COI	C9	Big Island	JAWE	Warbling white-eye	2280-08965	10/17/19	BH		Maria-COI_plate4	Sample	Generalist											
+2280-08994-COI	H7	Big Island	JAWE	Warbling white-eye	2280-08994	11/6/19	KIPA		Maria-COI_plate3	Sample	Generalist											
+2280-09024-COI	B4	Maui	JAWE	Warbling white-eye	2280-09024	6/6/19	PALIKU		Maria-COI_plate2	Sample	Generalist											
+2280-09047-COI	H3	Maui	JAWE	Warbling white-eye	2280-09047	6/12/19	KKOA		Maria-COI_plate2	Sample	Generalist											
+2280-09058-COI	D10	Big Island	JAWE	Warbling white-eye	2280-09058	6/12/19	KKOA		Maria-COI_plate4	Sample	Generalist											
+2280-09093-COI	G3	Maui	JAWE	Warbling white-eye	2280-09093	6/5/20	FSB		Maria-COI_plate2	Sample	Generalist											
+2280-09226-COI	F4	Kauai	JAWE	Warbling white-eye	2280-09226	5/15/18	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-09275-COI	D2	Kauai	JAWE	Warbling white-eye	2280-09275	5/15/18	NA		Maria-COI_plate3	Sample	Generalist											
+2280-09296-COI	A1	Kauai	JAWE	Warbling white-eye	2280-09296	7/9/17	NA		Maria-COI_plate3	Sample	Generalist											
+2280-37620-COI	C9	Kauai	JAWE	Warbling white-eye	2280-37620	11/6/16	KWK		Maria-COI_plate1	Sample	Generalist											
+2280-37668-COI	D4	Kauai	JAWE	Warbling white-eye	2280-37668	3/5/18	MOH		Maria-COI_plate1	Sample	Generalist											
+2280-37725-COI	F10	Kauai	JAWE	Warbling white-eye	2280-37725	12/12/17	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-37742-COI	A12	Kauai	JAWE	Warbling white-eye	2280-37742	2/7/18	NA		Maria-COI_plate2	Sample	Generalist											
+2280-37744-COI	B11	Kauai	JAWE	Warbling white-eye	2280-37744	2/11/18	NA		Maria-COI_plate2	Sample	Generalist											
+2280-37752-COI	F11	Kauai	JAWE	Warbling white-eye	2280-37752	2/16/18	NA		Maria-COI_plate2	Sample	Generalist											
+2280-37754-COI	B4	Kauai	JAWE	Warbling white-eye	2280-37754	2/23/19	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-37778-COI	B9	Kauai	JAWE	Warbling white-eye	2280-37778	5/14/18	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-37784-COI	G10	Kauai	JAWE	Warbling white-eye	2280-37784	2/23/19	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-37785-COI	C4	Kauai	JAWE	Warbling white-eye	2280-37785	2/23/19	HPK		Maria-COI_plate1	Sample	Generalist											
+2280-37861-COI	B11	Big Island	JAWE	Warbling white-eye	2280-37861	5/29/20	GUZZ		Maria-COI_plate4	Sample	Generalist											
+2280-37867-COI	F4	Big Island	JAWE	Warbling white-eye	2280-37867	6/29/20	BOG		Maria-COI_plate3	Sample	Generalist											
+2280-37869-COI	G4	Big Island	JAWE	Warbling white-eye	2280-37869	6/30/20	GUZZ		Maria-COI_plate3	Sample	Generalist											
+2280-37899-COI	A11	Big Island	JAWE	Warbling white-eye	2280-37899	6/9/20	GUZZ		Maria-COI_plate4	Sample	Generalist											
+2351-24074-COI	E2	Big Island	JAWE	Warbling white-eye	2351-24074	4/17/20	UPKE		Maria-COI_plate5	Sample	Generalist											
+2360-82731-COI	A11	Big Island	JAWE	Warbling white-eye	2360-82731	2/5/20	NANZ		Maria-COI_plate3	Sample	Generalist											
+2360-82778-COI	E5	Big Island	JAWE	Warbling white-eye	2360-82778	3/13/20	AIRA		Maria-COI_plate3	Sample	Generalist											
+2430-73296-COI	E10	Big Island	JAWE	Warbling white-eye	2430-73296	6/12/19	KKOA		Maria-COI_plate4	Sample	Generalist											
+2430-73363-COI	A3	Maui	JAWE	Warbling white-eye	2430-73363	6/5/20	FSB		Maria-COI_plate3	Sample	Generalist											
+2520-89331-COI	G4	Kauai	JAWE	Warbling white-eye	2520-89331	2/1/17	HPK		Maria-COI_plate1	Sample	Generalist											
+2520-89512-COI	G1	Kauai	JAWE	Warbling white-eye	2520-89512	3/12/18	NA		Maria-COI_plate3	Sample	Generalist											
+2520-89528-COI	H4	Kauai	JAWE	Warbling white-eye	2520-89528	10/10/19	MOH		Maria-COI_plate1	Sample	Generalist											
+2610-29520-COI	F9	Maui	JAWE	Warbling white-eye	2610-29520	5/11/19	NAK		Maria-COI_plate2	Sample	Generalist											
+2610-29524-COI	A4	Maui	JAWE	Warbling white-eye	2610-29524	5/11/19	NAK		Maria-COI_plate2	Sample	Generalist											
+2610-29583-COI	D8	Maui	JAWE	Warbling white-eye	2610-29583	5/11/19	NAK		Maria-COI_plate2	Sample	Generalist											
+2700-54645-COI	E6	Big Island	JAWE	Warbling white-eye	2700-54645	7/8/20	PWWA		Maria-COI_plate3	Sample	Generalist											
+2850-26837-COI	H10	Oahu	JAWE	Warbling white-eye	2850-26837	7/7/20	Makiki		Maria-COI_plate1	Sample	Generalist											
+2850-26841-COI	B11	Oahu	JAWE	Warbling white-eye	2850-26841	6/23/20	Makiki		Maria-COI_plate1	Sample	Generalist											
+2850-26842-COI	B3	Oahu	JAWE	Warbling white-eye	2850-26842	6/25/20	Maki		Maria-COI_plate3	Sample	Generalist											
+2850-26843-COI	E11	Oahu	JAWE	Warbling white-eye	2850-26843	6/25/20	Makiki		Maria-COI_plate1	Sample	Generalist											
+2850-26845-COI	G11	Oahu	JAWE	Warbling white-eye	2850-26845	7/8/20	Makiki		Maria-COI_plate1	Sample	Generalist											
+2850-26846-COI	A12	Oahu	JAWE	Warbling white-eye	2850-26846	7/7/20	Makiki	2850-26846-COI_reseq	Maria-COI_plate1	Sample	Generalist											
+JAWE-NoBand-COI	F11	Oahu	JAWE	Warbling white-eye	No band	6/23/20	Makiki		Maria-COI_plate1	Sample	Generalist											
+COI-PCR_Neg1	H12				PCR Neg 1				Maria-COI_plate1	Control												
+COI-PCR_Neg2	H12				PCR Neg 2				Maria-COI_plate2	Control												
+COI-PCR_Neg3	H12				PCR Neg 3				Maria-COI_plate3	Control												
+COI-PCR_Neg4	F11				PCR Neg 4				Maria-COI_plate4	Control												
+COI-PCR_Neg5	B3				PCR Neg 5				Maria-COI_plate5	Control												
+Neg-092920-COI	G12	Additional			Neg. control	9/29/20			Maria-COI_plate1	Control												
+Neg-100520-COI	G12	Additional			Neg. control	10/5/20			Maria-COI_plate2	Control												
+Neg-101620-COI	F12	Additional			Neg. control	10/16/20			Maria-COI_plate3	Control												
+Neg-102120-COI	G12	Additional			Neg. control	10/21/20			Maria-COI_plate3	Control												
+Neg-110420-COI	D11	Additional			Neg. control	11/4/20			Maria-COI_plate4	Control												
+Neg-111220-COI	A3	Additional			Neg. control	11/12/20			Maria-COI_plate5	Control												
+Neg-111720-COI	E11	Additional			Neg. control	11/17/20			Maria-COI_plate4	Control												
+784	NA	Kauai	AKEK	Akekee	1821-20784	1/31/17	HPK		NA	Sample	Insectivore 	Male	Adult	AHY	No	1	65	52		21.6	None	
+379	NA	Kauai	AKEK	Akekee	1821-21379	4/27/17	HPK		NA	Sample	Insectivore 	Female	Adult	AHY	Yes	5	58	47		21.5	None	14.7
+380	NA	Kauai	AKEK	Akekee	1821-21380	4/27/17	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	Yes	1	64	52		19.5	None	11
+408	NA	Kauai	AKEK	Akekee	1821-21408	2/27/18	UUK		NA	Sample	Insectivore 	Male	Adult	AHY	No	3	60.5	50	10.8	20.7	None	11.5
+660	NA	Kauai	AKEK	Akekee	2280-37660	2/24/18	UUK		NA	Sample	Insectivore 	Male	Adult	AHY	No	2	61	50	10.7	21.3	None	10.1
+662	NA	Kauai	AKEK	Akekee	2280-37662	2/24/18	UUK		NA	Sample	Insectivore 	Male	Adult	AHY	No	2	61	50	10.1	20.7	None	9.5
+663	NA	Kauai	AKEK	Akekee	2280-37663	2/24/18	UUK		NA	Sample	Insectivore 	U	Adult	AHY	No	4	57	47.5	10.6	20.6	None	9.5
+705	NA	Kauai	AKEK	Akekee	2280-37705	3/26/17	HPK		NA	Sample	Insectivore 	Male	Adult	AHY	No	2	62	47.5	10.8	21.3	None	10
+760	NA	Kauai	AKEK	Akekee	2280-37760	4/7/18	HPK		NA	Sample	Insectivore 	Female	Adult	ASY	Yes	3	62	50	11.5	20.8	None	10.69
+112	NA	Kauai	AKEK	Akekee	2631-36112	1/25/18	HPK		NA	Sample	Insectivore 	U	Adult	AHY	No	1	62	49	10.8	20.5	None	10.08
+118	NA	Kauai	AKEK	Akekee	2631-36118	2/7/18	HPK		NA	Sample	Insectivore 	U	Adult	AHY	No	2	64	51	11.5	21.9	None	11.84
+140	NA	Kauai	AKEK	Akekee	2631-36140	4/20/18	HPK		NA	Sample	Insectivore 	Male	Adult	AHY	Yes	2	63	52	11.6	21.6	None	11.25
+141	NA	Kauai	AKEK	Akekee	2631-36141	4/20/18	HPK		NA	Sample	Insectivore 	Male	Adult	AHY	Yes	3	62	51	11.5	21.6	None	12.01
+712	NA	Kauai	AKIK	Akikiki	1821-20712	12/13/17	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	No							
+774	NA	Kauai	AKIK	Akikiki	1821-20774	11/5/16	UUK		NA	Sample	Insectivore 	Male	Adult	AHY	U	2	68.5	41		20.8	None	15.5
+347-2	NA	Kauai	AKIK	Akikiki	1821-21347	1/27/17	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	No	2	70	42		21	None	13.5
+347-3	NA	Kauai	AKIK	Akikiki	1821-21347	4/18/17	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	Yes	0	70	37.5		20.5	None	13.7
+347-4	NA	Kauai	AKIK	Akikiki	1821-21347	5/20/18	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	Yes	2	69	44	14.8	20.4	None	15.29
+347-1	NA	Kauai	AKIK	Akikiki	1821-21347	5/21/18	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	Yes	2	69	44	14.8	20.4	None	15.29
+354-17	NA	Kauai	AKIK	Akikiki	1821-21354	3/17/17	HPK		NA	Sample	Insectivore 	Female	Juvenile	N	No	2	43	14	8.82	19.71	None	13.5
+354-2	NA	Kauai	AKIK	Akikiki	1821-21354	2/7/18	HPK		NA	Sample	Insectivore 	Female	Adult	SY	No	3	62	40	13.5	20.2	None	13.5
+356	NA	Kauai	AKIK	Akikiki	1821-21356	3/17/17	HPK		NA	Sample	Insectivore 	U	Juvenile	N	No	1	46	16	9.7	21.1	None	
+360-3	NA	Kauai	AKIK	Akikiki	1821-21360	3/25/17	HPK		NA	Sample	Insectivore 	Female	Adult	ASY	Yes	3	66.5	27.5	11.8	20.1	None	12.5
+361	NA	Kauai	AKIK	Akikiki	1821-21361	3/26/17	HPK		NA	Sample	Insectivore 	Male	Adult	SY	No	2	68.5	37	13.5	20.2	None	15
+362	NA	Kauai	AKIK	Akikiki	1821-21362	3/28/17	HPK		NA	Sample	Insectivore 	Male	Juvenile	N	No	4	47.5	16	11	21	Heavy	15.5
+363	NA	Kauai	AKIK	Akikiki	1821-21363	3/28/17	HPK		NA	Sample	Insectivore 	U	Juvenile	N	No	4	45.5	16	10	21	Heavy	13.5
+366	NA	Kauai	AKIK	Akikiki	1821-21366	4/5/17	HPK		NA	Sample	Insectivore 	Female	Adult	ASY	Yes	5	64	41		21.6	None	17.3
+369	NA	Kauai	AKIK	Akikiki	1821-21369	4/9/17	HPK		NA	Sample	Insectivore 	Female	Adult	ASY	No	3	70	40	13	21	None	14.5
+371	NA	Kauai	AKIK	Akikiki	1821-21371	4/11/17	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	Yes	3	70	45	13.5	20.1	None	15
+372	NA	Kauai	AKIK	Akikiki	1821-21372	4/12/17	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	Yes	3	69	41.5		21.6	None	15.5
+373-1	NA	Kauai	AKIK	Akikiki	1821-21373	4/13/17	HPK		NA	Sample	Insectivore 	Male	Juvenile	N	No	4	41	10	9.2	20.5	Heavy	15.8
+373-2	NA	Kauai	AKIK	Akikiki	1821-21373	4/13/17	HPK		NA	Sample	Insectivore 	Male	Juvenile	N	No	4	41	10	9.2	20.5	Heavy	15.8
+373-3	NA	Kauai	AKIK	Akikiki	1821-21373	5/6/18	HPK		NA	Sample	Insectivore 	Male	Adult	SY	No	2	65	38	14.2	20.9	None	14.5
+374	NA	Kauai	AKIK	Akikiki	1821-21374	4/13/17	HPK		NA	Sample	Insectivore 	U	Juvenile	N	No	4	42	14	9.2	20.5	Heavy	16
+375-1	NA	Kauai	AKIK	Akikiki	1821-21375	4/14/17	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	Yes	2	70	41.5	13.7	21.2	None	14.8
+375-2	NA	Kauai	AKIK	Akikiki	1821-21375	2/11/18	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	No	4	70	42	15.3	21	None	15
+381	NA	Kauai	AKIK	Akikiki	1821-21381	4/25/17	HPK		NA	Sample	Insectivore 	Female	Adult	SY	Yes	3	63.5	38.5	13.5	18	None	14.2
+402-2	NA	Kauai	AKIK	Akikiki	1821-21402	2/24/18	UUK		NA	Sample	Insectivore 	Male	Adult	ASY	Yes	3	68.5	42	13	18.1	Light	13.8
+403-2	NA	Kauai	AKIK	Akikiki	1821-21403	2/24/18	UUK		NA	Sample	Insectivore 	Male	Adult	ASY	No	0	68	39.5	13.2	19.2	None	14.6
+407	NA	Kauai	AKIK	Akikiki	1821-21407	2/27/18	UUK		NA	Sample	Insectivore 	Female	Adult	ASY	Yes	3	66.5	41	16.7	19.3	None	13
+411	NA	Kauai	AKIK	Akikiki	1821-21411	3/7/18	UUK		NA	Sample	Insectivore 	Male	Adult	ASY	Yes	3	71	45	14.25	20	None	
+415	NA	Kauai	AKIK	Akikiki	1821-21415	3/26/18	UUK		NA	Sample	Insectivore 	Male	Adult	SY	No	3	70	42	14.5	20.7	None	
+300-1	NA	Kauai	AKIK	Akikiki	2280-09300	1/30/17	HPK		NA	Sample	Insectivore 	Female	Adult	ASY	No	4	65	40		18.2	None	14
+300-2	NA	Kauai	AKIK	Akikiki	2280-09300	3/29/18	HPK		NA	Sample	Insectivore 	Female	Adult	ASY	Yes	1	64	40	13.2	18.5	None	14.4
+644	NA	Kauai	AKIK	Akikiki	2280-37644	4/17/17	HPK		NA	Sample	Insectivore 	Female	Adult	AHY	Yes	2	66	40			None	14.6
+734	NA	Kauai	AKIK	Akikiki	2280-37734	1/20/18	HPK		NA	Sample	Insectivore 	Female	Adult	ASY	No	2	67	39.5	11	20.6	Light	13
+736	NA	Kauai	AKIK	Akikiki	2280-37736	1/21/18	HPK		NA	Sample	Insectivore 	Male	Adult	SY	No	2	66.5	38.5	15.3	20.5	Light	15
+773	NA	Kauai	AKIK	Akikiki	2280-37773	5/12/18	HPK		NA	Sample	Insectivore 	U	Juvenile	HY	No	3	68	37	12.1	20.4	Medium	14.5
+106	NA	Kauai	AKIK	Akikiki	2631-36106	1/20/18	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	No	3	70	42	14.2	20.3	Light	15
+111	NA	Kauai	AKIK	Akikiki	2631-36111	1/25/18	HPK		NA	Sample	Insectivore 	Female	Adult	SY	No	4	65	40	14.4	20	Light	13
+116	NA	Kauai	AKIK	Akikiki	2631-36116	2/7/18	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	No	0	69	42	13.5	21.9	None	15.27
+142-5	NA	Kauai	AKIK	Akikiki	2631-36142	5/7/18	HPK		NA	Sample	Insectivore 	Female	Adult	SY	Yes	3	65	40	13.2	21.6	Medium	14.5
+143	NA	Kauai	AKIK	Akikiki	2631-36143	5/12/18	HPK		NA	Sample	Insectivore 	Male	Adult	SY	Yes	4	68	40	14.8	21.6	None	16
+144	NA	Kauai	AKIK	Akikiki	2631-36144	5/28/18	HPK		NA	Sample	Insectivore 	Male	Adult	ASY	No	4	70.5	42	16	21.3	None	16.5
+145	NA	Kauai	AKIK	Akikiki	2631-36145	5/28/18	HPK		NA	Sample	Insectivore 	U	Juvenile	HY	No	2	65.5	39.5	12.3	22.3	Medium	14.2
