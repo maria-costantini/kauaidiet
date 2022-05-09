@@ -374,7 +374,7 @@ top20otus = names(sort(taxa_sums(kps), TRUE)[1:20])
 kps.clean20 <- prune_taxa(top20otus, kps) 
 tax_table(kps.clean20)
 
-
+metacoi <- as.data.frame(sample_data(kps)) 
 
 rm(basic_contam_table,basic_contam.prev,cp_basic01,cp_basic02,cp_basic03,cp_basic05)
 rm(kps.clean1, kps.single,p)
