@@ -122,53 +122,61 @@ rownames_to_column(var = "SampleID")
 #wide2
 
 metacoi$simpson <- diversity(wide2[,2:4819], MARGIN=1, index = "simpson") #does the same thing, but should be more direct
-metadata$shannon <- diversity(wide2[,metadata$sampleID], MARGIN=2, index = "shannon") 
-metatabcoi$invsimpson <- diversity(wide2[,metatabcoi$sampleID], MARGIN=2, index = "invsimpson")
+metacoi$shannon <- diversity(wide2[,2:4819], MARGIN=1, index = "shannon") 
+metacoi$invsimpson <- diversity(wide2[,2:4819], MARGIN=1, index = "invsimpson")
 
-metadata <- subset_samples(metadata, Island=="Kauai")
-metadata <- subset_samples(metadata, Sample.or.Control=="Sample")
-#making some boxplots
-cbbPalette <- c("#E69F00", "#0072B2")
-akik <- subset(metatabcoi, Species=="Akikiki")
-ggplot(metatabcoi, aes(x = Species, y = shannon, fill = Site)) + 
+####making some boxplots 
+#cbbPalette <- c("#E69F00", "#0072B2") #for colorblind palette
+#akik <- subset(metacoi, Species=="Akikiki")
+ggplot(metacoi, aes(x = Species, y = shannon, fill = Species)) + 
   geom_boxplot() +
   labs(
     y = "Shannon Diversity"
   ) +
   theme_classic() +
-  scale_fill_manual(values=cbbPalette)
+  scale_fill_brewer(palette="Set1")
 )
-cbbPalette2 <- c("#D55E00", "#999999")
-labels <- c("Breeding", "Non-breeding")
-plot <- ggplot(metatabcoi, aes(x = Species, y = shannon, fill=Season))+ 
-  geom_boxplot() +
-  labs(
-    y = "Shannon Diversity"
-  ) +
-  theme_classic() +
-  scale_fill_manual(values=cbbPalette2, labels=labels)
-)   
+#cbbPalette2 <- c("#D55E00", "#999999")
+#labels <- c("Breeding", "Non-breeding")
+#plot <- ggplot(metatabcoi, aes(x = Species, y = shannon, fill=Season))+ 
+  #geom_boxplot() +
+ # labs(
+  #  y = "Shannon Diversity"
+ # ) +
+ # theme_classic() +
+#  scale_fill_manual(values=cbbPalette2, labels=labels) #scalefillmanual to change to cbbpalette
+#)   
 
-plot #+ scale_x_discrete(labels=labels)  
-
+#plot #+ scale_x_discrete(labels=labels)  
 
 
 
 
 
 #calculate sequencing depth 
-coidepth <- colSums(wide2)
-metatabcoi$depth <- coidepth
+long <- t(wide2)
+long <- as.data.frame(long)
+colnames(long) <- long[1,] #copies the first row to column names
+long <- long[-1,] #deletes the first row so there isnt a duplicated row
+
+#coidepth <- colSums(long2) #NOT WORKKING for some reason
+#metacoi$depth <- coidepth
 
 #rarefaction curve
 #S <- specnumber(coiotu)
-tcoiotu <- t(coiotu)
-raremax <- min(rowSums(tcoiotu))
+tcoiotu <- t(coiasv)
+tcoiotu <- as.data.frame(tcoiotu)
+colnames(tcoiotu) <- tcoiotu[1,] #copies the first row to column names
+tcoiotu<- tcoiotu[-1,]
+raremax <- min(rowSums(coiasv[,2:4819]))
 #Srare <- rarefy(coiotu, raremax)
-rarecurve(tcoiotu, step = 20, sample = raremax,  col = "blue")
+coiasv <-column_to_rownames(coiasv, 'SampleID')
+rarecurve(coiasv, step = 20, sample = raremax,  col = "blue")
 
-#glm for alpha
-mod3 = glm(shannon ~ Species + depth + Site + Species*Site, data=metatabcoi)
-summary(mod3)
-Anova(mod3)
+####glm for alpha
+#having issues running for some reason
+#alpha <- as.data.frame(metacoi)
+#mod3 = glm(shannon ~ Species + Location + Species*Location, data=alpha)
+#summary(mod3)
+#Anova(mod3)
 
