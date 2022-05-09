@@ -1,0 +1,174 @@
+####Exploratory Analyses####
+
+
+###############################################################
+# NETWORK plot
+# prune to just the top 100 most abundant OTUs across all samples.
+set.seed(386)
+
+# NOTE: this takes lots of memory/time so only use a few OTUs, e.g. top 100.
+kps100 = prune_taxa(names(sort(taxa_sums(kps.clean.rel), TRUE))[1:100], kps.clean.rel)
+kps20 = prune_taxa(names(sort(taxa_sums(kps.clean.rel), TRUE))[1:20], kps.clean.rel)
+
+ig = make_network(kps100, type = "samples", distance = "jaccard", max.dist=0.8)
+plot_network(ig, kps100, type = "samples", color = "PCR.Plate", line_weight = 0.4, label = NULL)
+#doesnt look like theyre clustering by sequening run
+plot_network(ig, kps100, type = "samples", color = "Species", line_weight = 0.4, label = NULL)
+plot_network(ig, kps100, type = "samples", color = "Foraging.Guild", line_weight = 0.4, label = NULL)
+
+ig2 = make_network(kps100, type = "samples", distance = "bray", max.dist=0.8)
+plot_network(ig2, kps100, type = "samples", color = "Species", line_weight = 0.4, label = NULL)
+
+
+#####ORDINATIONS####
+
+library(plyr)
+egen_col <- c("#F8766D",
+              "#7fb9d7")
+
+# choose one of the following distances measures and dataset
+ord_psbray = ordinate(kps.clean.rel, "NMDS", "bray") #Still getting that stress is nearly zero
+#ord_pswuni = ordinate(kps.clean.rel, "NMDS", "wunifrac")
+ord_psjaccard = ordinate(kps.clean.rel, "NMDS", "jaccard")
+
+pcoabray = ordinate(kps.clean.rel, "PCoA", "bray")
+pcoabrayR = ordinate(kps.clean.R, "PCoA", "bray")
+pcoajac = ordinate(kps.clean.rel, "PCoA", "jaccard")
+
+#pcoabrayR = ordinate(kps.clean.R, "PCoA", "bray")
+#pcoajacR = ordinate(kps.clean.R, "PCoA", "jaccard")
+#ord_ps = ordinate(coips.clean.rel, "PCoA", "wunifrac")
+#ord_ps = ordinate(coips.clean.rel, "PCoA", "unifrac")
+#ord_ps = ordinate(coips.clean.R)
+
+# plot ordination to object
+g <- plot_ordination(kps.clean.rel, pcoabray, color = "Species")
+g
+g1 <- plot_ordination(kps.clean.rel, pcoajac, color = "Species")
+g1
+
+g2 <- plot_ordination(kps.clean.rel, pcoabray, color = "Location")
+g2
+
+
+# ALPHA DIVERSITY 
+# (and RICHNESS)
+library("ggplot2")
+# You must use untrimmed, non-normalized count data for meaningful results, as many of these estimates 
+# are highly dependent on the number of singletons. You can always trim the data later on if needed, 
+
+# phyloseq default plot
+alpha <- plot_richness(kps.sample, x = "Species", measures="Shannon") + geom_boxplot()
+plot_richness(kps, x = "Species", measures="Shannon") + geom_boxplot()
+alpha
+
+
+####Doing Alpha diversity analyses in Vegan###
+
+library(vegan)
+
+##Trying to export of physeq so I can use in vegan##
+coiasv = as(otu_table(kps), "matrix")
+coiotu <- otu_table(kps, taxa_are_rows = FALSE)
+# transpose if necessary
+#if(taxa_are_rows(physeq1)){OTU1 <- t(OTU1)}
+# Coerce to data.frame
+
+coiasv <- t(coiasv)
+
+coiasv = as.data.frame(coiasv)
+coiasv <- cbind(rownames(coiasv), coiasv)
+rownames(coiasv) <- NULL
+colnames(coiasv) <- c(names(coiasv)) #to not write all the column names
+colnames(coiasv)[1] <- "SampleID" 
+
+
+
+#coiOTUtable=otu_table(coiphyseq)
+#coiOTUtable <- as.data.frame(coiOTUtable)
+#coiOTUtable <- t(coiOTUtable) #need to transpose 
+#export your metadata table for other programs (like vegan)
+#metadata_table=sample_data(coiphyseq)
+#coimeta <- as.data.frame(metadata_table)
+#export your taxonomy table for other programs (like vegan)
+coitax=tax_table(kps)
+coitax <- as.data.frame(coitax)
+
+##Alpha in vegan##
+library(tibble)
+alpha <-join(coiasv, metadata, by = "SampleID", type = "left", match = "first") #join asvs and metadata
+wide2 <-alpha[,c(1:4819)] #trim to get rid of metadata
+head(colnames(wide2))
+
+
+
+wide2 <- column_to_rownames(wide2, 'SampleID')
+
+wide2 <- wide2 %>% 
+rownames_to_column(var = "SampleID")
+#wide2 <- as.data.frame(wide2)
+
+#names(wide2) <- as.matrix(wide2[1, ])
+#wide2 <- wide2[-1, ]
+#wide2[] <- lapply(wide2, function(x) type.convert(as.character(x)))
+#wide2
+#wide2<- as_tibble(wide2)
+#wide2 <-t(wide2)
+#wide2 <- as.data.frame(wide2)
+#names(wide2) <- as.matrix(wide2[1, ])
+#wide2 <- wide2[,-1]
+#rownames(wide2) <- wide2[,1]
+#wide2[] <- lapply(wide2, function(x) type.convert(as.character(x)))
+#wide2
+
+metacoi$simpson <- diversity(wide2[,2:4819], MARGIN=1, index = "simpson") #does the same thing, but should be more direct
+metadata$shannon <- diversity(wide2[,metadata$sampleID], MARGIN=2, index = "shannon") 
+metatabcoi$invsimpson <- diversity(wide2[,metatabcoi$sampleID], MARGIN=2, index = "invsimpson")
+
+metadata <- subset_samples(metadata, Island=="Kauai")
+metadata <- subset_samples(metadata, Sample.or.Control=="Sample")
+#making some boxplots
+cbbPalette <- c("#E69F00", "#0072B2")
+akik <- subset(metatabcoi, Species=="Akikiki")
+ggplot(metatabcoi, aes(x = Species, y = shannon, fill = Site)) + 
+  geom_boxplot() +
+  labs(
+    y = "Shannon Diversity"
+  ) +
+  theme_classic() +
+  scale_fill_manual(values=cbbPalette)
+)
+cbbPalette2 <- c("#D55E00", "#999999")
+labels <- c("Breeding", "Non-breeding")
+plot <- ggplot(metatabcoi, aes(x = Species, y = shannon, fill=Season))+ 
+  geom_boxplot() +
+  labs(
+    y = "Shannon Diversity"
+  ) +
+  theme_classic() +
+  scale_fill_manual(values=cbbPalette2, labels=labels)
+)   
+
+plot #+ scale_x_discrete(labels=labels)  
+
+
+
+
+
+
+#calculate sequencing depth 
+coidepth <- colSums(wide2)
+metatabcoi$depth <- coidepth
+
+#rarefaction curve
+#S <- specnumber(coiotu)
+tcoiotu <- t(coiotu)
+raremax <- min(rowSums(tcoiotu))
+#Srare <- rarefy(coiotu, raremax)
+rarecurve(tcoiotu, step = 20, sample = raremax,  col = "blue")
+
+#glm for alpha
+mod3 = glm(shannon ~ Species + depth + Site + Species*Site, data=metatabcoi)
+summary(mod3)
+Anova(mod3)
+
