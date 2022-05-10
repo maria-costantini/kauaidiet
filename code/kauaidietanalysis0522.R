@@ -180,3 +180,69 @@ rarecurve(coiasv, step = 20, sample = raremax,  col = "blue")
 #summary(mod3)
 #Anova(mod3)
 
+#### HEATMAPS ####
+###making a heatmap###
+
+families=tax_glom(kps.clean.rel, taxrank="Family",NArm=TRUE)
+
+class= tax_glom(kps.clean.rel, taxrank="Class", NArm=TRUE)
+
+genus= tax_glom(kps.clean.rel, taxrank="Genus", NArm=TRUE)
+
+phylum=tax_glom(kps.clean.rel, taxrank="Phylum", NArm=TRUE)
+
+order=tax_glom(kps.clean.rel, taxrank="Order",NArm=TRUE)
+
+
+#heatmap by species for order
+plotheat<-plot_heatmap(order, "NMDS", "jaccard", taxa.label="Order",low="#66CCFF", high="#000033", na.value="white")
+q1 <- plotheat + facet_grid(~Foraging.Guild, scales= "free_x", switch = "x")
+q2 <- q1 + theme(
+  axis.text.x = element_blank(),
+  axis.ticks = element_blank()
+) 
+plot(q2)
+
+#TopNOTUs = names(sort(taxa_sums(families), TRUE)[1:35])
+#top50= prune_taxa(TopNOTUs, families)
+
+
+plotheat2 <-plot_heatmap(order, "NMDS", "jaccard", taxa.label="Order",low="#66CCFF", high="#000033", na.value="white")
+q3 <- plotheat2 + facet_grid(~sample_Species, scales= "free_x", switch = "x")
+q4 <- q3 + theme(
+  axis.text.x = element_blank(),
+  axis.ticks = element_blank()
+) 
+plot(q4)
+
+#### Abundance Plots ####
+
+######## ABUNDANCE PLOTS ################3
+
+kps.clean <- subset_samples(kps.clean.rel, Island=="Kauai") #just kauai
+abund <- transform_sample_counts(kps.clean.rel, function(x) x / sum(x) )
+
+glom <- tax_glom(abund, taxrank = 'Order') 
+glom # should list # taxa as # order
+data <- psmelt(glom) # create dataframe from phyloseq object
+data$Order <- as.character(data$Order) #convert to character
+#simple way to rename phyla with < 1% abundance
+
+data$Order[data$Abundance < 0.15] <- "Other"
+medians <- ddply(data, ~Order, function(x) c(median=median(x$Abundance)))
+
+remainder <- medians[medians$median <= 0.15,]$Order
+data[data$Order %in% remainder,]$Order <- "Other"
+data$Order[data$Abundance < 0.15] <- "Other"
+p <- ggplot(data=data, aes(x=Sample, y=Abundance, fill=Order))
+p + geom_bar(aes(), stat="identity", position="fill") +
+  scale_fill_manual(values = c( "gold" ,"darkorchid3","darkgreen","green3",
+                                "seagreen1" ,"magenta" , "dodgerblue1","pink","brown1",
+                                "firebrick" , "gray1","cyan1","deeppink", "darkorange1","lightpink", "blue", "snow3" ,"blue3","chocolate2", "lemonchiffon", "coral2", "cadetblue", "maroon4", "thistle1")) +
+   #scale_fill_brewer(palette="Set3") +
+   theme(legend.position="bottom", axis.text.x=element_blank(),#panel.border = element_blank(), 
+        panel.spacing.x = unit(0,"line"), 
+        axis.ticks.x=element_blank()) +  
+  guides(fill=guide_legend(nrow=5)) + 
+  facet_grid(~sample_Species, scales="free", space="free") 
+
