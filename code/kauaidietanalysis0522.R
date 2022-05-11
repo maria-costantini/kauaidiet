@@ -14,6 +14,7 @@ ig = make_network(kps100, type = "samples", distance = "jaccard", max.dist=0.8)
 plot_network(ig, kps100, type = "samples", color = "PCR.Plate", line_weight = 0.4, label = NULL)
 #doesnt look like theyre clustering by sequening run
 plot_network(ig, kps100, type = "samples", color = "Species", line_weight = 0.4, label = NULL)
+
 plot_network(ig, kps100, type = "samples", color = "Foraging.Guild", line_weight = 0.4, label = NULL)
 
 ig2 = make_network(kps100, type = "samples", distance = "bray", max.dist=0.8)
@@ -29,7 +30,7 @@ egen_col <- c("#F8766D",
 # choose one of the following distances measures and dataset
 ord_psbray = ordinate(kps.clean.rel, "NMDS", "bray") #Still getting that stress is nearly zero
 #ord_pswuni = ordinate(kps.clean.rel, "NMDS", "wunifrac")
-ord_psjaccard = ordinate(kps.clean.rel, "NMDS", "jaccard")
+ord_psjaccard = ordinate(kps.clean.R, "NMDS", "jaccard")
 
 pcoabray = ordinate(kps.clean.rel, "PCoA", "bray")
 pcoabrayR = ordinate(kps.clean.R, "PCoA", "bray")
@@ -42,12 +43,14 @@ pcoajac = ordinate(kps.clean.rel, "PCoA", "jaccard")
 #ord_ps = ordinate(coips.clean.R)
 
 # plot ordination to object
-g <- plot_ordination(kps.clean.rel, pcoabray, color = "Species")
+g <- plot_ordination(kps.clean.rel, pcoabrayR, color = "Species")
+g
+g <- plot_ordination(kps.clean.rel, pcoabray, color = "Foraging.Guild")
 g
 g1 <- plot_ordination(kps.clean.rel, pcoajac, color = "Species")
 g1
 
-g2 <- plot_ordination(kps.clean.rel, pcoabray, color = "Location")
+g2 <- plot_ordination(kps.clean.rel, ord_psbray, color = "Species")
 g2
 
 
