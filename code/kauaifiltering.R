@@ -6,6 +6,9 @@ install.packages("qiime2R")
 library(qiime2R)
 library(phyloseq)
 library(ggplot2)
+install.packages("remotes")
+remotes::install_github("microbiome/microbiome")
+library(microbiome)
 
 ####Bringing in Data#####
 
@@ -65,6 +68,10 @@ length(colnames(OTU))
 #Put it all together in phyloseq object 
 kps <- phyloseq(OTU, TAX, META) #this actually has all islands still
 kps
+
+summarize_phyloseq(kps)
+sample_sums(kps)
+
 
 # check meta data and tax table
 head(sample_data(kps))
@@ -198,6 +205,7 @@ kps.nocontam
 kps.sample <- prune_samples(sample_data(kps.nocontam)$Sample.or.Control == "Sample", kps.nocontam)
 kps.sample <- prune_taxa(taxa_sums(kps.sample) > 0, kps.sample)
 kps.sample
+
 
 rm(kps.pa, kps.pa.neg, kps.pa.pos)
 rm(contamdf.prev, contamdf.prev05)
