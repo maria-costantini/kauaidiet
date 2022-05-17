@@ -30,11 +30,11 @@ egen_col <- c("#F8766D",
 # choose one of the following distances measures and dataset
 ord_psbray = ordinate(kps.clean.rel, "NMDS", "bray") #Still getting that stress is nearly zero
 #ord_pswuni = ordinate(kps.clean.rel, "NMDS", "wunifrac")
-ord_psjaccard = ordinate(kps.clean.R, "NMDS", "jaccard")
+ord_psjaccard = ordinate(kauai.rel, "NMDS", "jaccard")
 
 pcoabray = ordinate(kps.clean.rel, "PCoA", "bray")
 pcoabrayR = ordinate(kps.clean.R, "PCoA", "bray")
-pcoajac = ordinate(kps.clean.rel, "PCoA", "jaccard")
+pcoajac = ordinate(kauai.rel, "PCoA", "jaccard")
 
 #pcoabrayR = ordinate(kps.clean.R, "PCoA", "bray")
 #pcoajacR = ordinate(kps.clean.R, "PCoA", "jaccard")
@@ -47,12 +47,14 @@ g <- plot_ordination(kps.clean.rel, pcoabrayR, color = "Species")
 g
 g <- plot_ordination(kps.clean.rel, pcoabray, color = "Foraging.Guild")
 g
-g1 <- plot_ordination(kps.clean.rel, pcoajac, color = "Species")
+g1 <- plot_ordination(kauai, pcoajac, color = "Foraging.Guild")
 g1
 
 g2 <- plot_ordination(kps.clean.rel, ord_psbray, color = "Species")
 g2
 
+g3 <- plot_ordination(kauai.rel, ord_psjaccard, color = "Species")
+g3
 
 # ALPHA DIVERSITY 
 # (and RICHNESS)
@@ -186,20 +188,23 @@ rarecurve(coiasv, step = 20, sample = raremax,  col = "blue")
 #### HEATMAPS ####
 ###making a heatmap###
 
-families=tax_glom(kps.clean.rel, taxrank="Family",NArm=TRUE)
+remotes::install_github("vmikk/metagMisc")
 
-class= tax_glom(kps.clean.rel, taxrank="Class", NArm=TRUE)
+families=tax_glom(kauai.rel, taxrank="Family",NArm=TRUE)
 
-genus= tax_glom(kps.clean.rel, taxrank="Genus", NArm=TRUE)
+class= tax_glom(kauai.rel, taxrank="Class", NArm=TRUE)
 
-phylum=tax_glom(kps.clean.rel, taxrank="Phylum", NArm=TRUE)
+genus= tax_glom(kauai.rel, taxrank="Genus", NArm=TRUE)
 
-order=tax_glom(kps.clean.rel, taxrank="Order",NArm=TRUE)
+phylum=tax_glom(kauai.rel, taxrank="Phylum", NArm=TRUE)
 
+order=tax_glom(kauai.rel, taxrank="Order",NArm=TRUE) 
+#order2 <- phyloseq_rm_na_tax(order) #this removes unused taxonomic ranks
+#head(tax_table(order2))
 
 #heatmap by species for order
-plotheat<-plot_heatmap(order, "NMDS", "jaccard", taxa.label="Order",low="#66CCFF", high="#000033", na.value="white")
-q1 <- plotheat + facet_grid(~Foraging.Guild, scales= "free_x", switch = "x")
+plotheat<-plot_heatmap(class, "NMDS", "jaccard", taxa.label="Class",low="#66CCFF", high="#000033", na.value="white")
+q1 <- plotheat + facet_grid(~sample_Species, scales= "free_x", switch = "x")
 q2 <- q1 + theme(
   axis.text.x = element_blank(),
   axis.ticks = element_blank()
@@ -210,7 +215,7 @@ plot(q2)
 #top50= prune_taxa(TopNOTUs, families)
 
 
-plotheat2 <-plot_heatmap(order, "NMDS", "jaccard", taxa.label="Order",low="#66CCFF", high="#000033", na.value="white")
+plotheat2 <-plot_heatmap(order, "PCoA", "jaccard", taxa.label="Order",low="#66CCFF", high="#000033", na.value="white")
 q3 <- plotheat2 + facet_grid(~sample_Species, scales= "free_x", switch = "x")
 q4 <- q3 + theme(
   axis.text.x = element_blank(),
@@ -222,8 +227,8 @@ plot(q4)
 
 ######## ABUNDANCE PLOTS ################3
 
-kps.clean <- subset_samples(kps.clean.rel, Island=="Kauai") #just kauai
-abund <- transform_sample_counts(kps.clean.rel, function(x) x / sum(x) )
+#kps.clean <- subset_samples(kps.clean.rel, Island=="Kauai") #just kauai
+abund <- transform_sample_counts(kauai.rel, function(x) x / sum(x) )
 
 glom <- tax_glom(abund, taxrank = 'Order') 
 glom # should list # taxa as # order
@@ -247,5 +252,224 @@ p + geom_bar(aes(), stat="identity", position="fill") +
         panel.spacing.x = unit(0,"line"), 
         axis.ticks.x=element_blank()) +  
   guides(fill=guide_legend(nrow=5)) + 
-  facet_grid(~sample_Species, scales="free", space="free") 
+  facet_grid(~Foraging.Guild, scales="free", space="free") 
+
+##Phyloseq barplot
+plot_bar(kauai, fill = "Class", x="sample_Species")
+
+#Top 25 taxa
+#Barplot of top 25 OTUs
+Top25OTUs = names(sort(taxa_sums(kauai), TRUE)[1:25])
+comparetop25 = prune_taxa(Top25OTUs, kauai)
+relative  = transform_sample_counts(comparetop25, function(OTU) OTU / sum(OTU))
+plot_bar(physeq = relative, fill = "Order", facet_grid =~Year, x = "sample_Species")
+
+birdspecies<-kauai@sam_data$Species
+dupes<-duplicated(birdspecies)
+kauai@sam_data$duplicated<-dupes
+multiple.spp.obs <- prune_samples(kauai@sam_data$duplicated==TRUE, kauai)
+multiple.spp.obs <- prune_samples(sample_sums(multiple.spp.obs)>=1, multiple.spp.obs)
+
+#Evaluate within-species variation
+
+####not really needed to do
+install.packages("remotes")
+install.packages("adespatial")
+remotes::install_github("umerijaz/microbiomeSeq")
+library(microbiomeSeq)
+library(ggplot2)
+kauai2 <- normalise_data(order, norm.method = "proportion")
+p <- plot_taxa(kauai2, grouping_column = "Species", method="hellinger")
+relative<- transform_sample_counts(kauai2, function(OTU) OTU / sum(OTU))
+p<- plot_taxa(relative, grouping_column = "Order", method = 'hellinger', number.taxa = 10)
+pdf(file = "LCBD_multispp.pdf", width = 10, height = 5)
+p
+dev.off()
+
+#Agglomerate by species
+#Remove confidence from Tax table (messes up agglomeration)
+tax_table(kauai) <- tax_table(kauai)[,1:5]
+mergedspp<-merge_samples(x = kauai, group = "Species")
+relative.merged  = transform_sample_counts(mergedspp, function(OTU) OTU / sum(OTU))
+
+#Alpha diversity
+Obs.MOTU<-plot_richness(physeq = kauai, color = "Foraging.Guild", measures = "Observed", x = "Species") + geom_boxplot(outlier.color = "black") + theme_bw() +
+  theme(axis.text.x = element_text(angle = 90))
+Obs.MOTU
+
+#Check correlation between # of species replicate & # MOTUs, controlling for outliers
+nobs<-as.data.frame(multispp)
+Obs.MOTU<-estimate_richness(mergedspp, measures = c("Observed", "Shannon"))
+Obs.MOTU$Var1<-rownames(Obs.MOTU)
+samplesize_testdr<-merge.data.frame(nobs, Obs.MOTU, by = "Var1")
+
+outliers <- boxplot(samplesize_testdr$Observed, plot=TRUE)$out
+outliers
+
+samplesize_testdr<-samplesize_testdr[-c(15, 17, 18), ]
+
+#Observed MOTUs
+cor.test(samplesize_testdr$Freq, samplesize_testdr$Observed, method = "kendall", exact = FALSE)
+plot(samplesize_testdr$Freq, samplesize_testdr$Observed)
+#theres definitely a correlation between sample size and richness
+
+cor.test(samplesize_testdr$Freq, samplesize_testdr$Shannon, method = "kendall", exact = FALSE)
+#less so with shannon but still pretty high
+
+############# DATA TRANSFORMATION AND ORDINATION #################
+#Center Log transform the data (don't rarefy)
+require(microbiome)
+physeq.trans<-microbiome::transform(kauai, "log10")
+
+
+funx.ord <- ordinate(
+  physeq = physeq.trans, 
+  method = "NMDS", 
+  distance = "bray"
+)
+
+funx.ord.jacP <- ordinate(
+  physeq = physeq.trans, 
+  method = "PCoA", 
+  distance = "jaccard"
+)
+
+# Calculate distance matrix
+study.bray <- phyloseq::distance(physeq.trans, method = "bray")
+study.jaccard<- phyloseq::distance(physeq.trans, method = "jaccard")
+
+noPU <- subset_samples(physeq.trans, Species!="Puaiohi ")
+study.jaccardnoPU <- phyloseq::distance(noPU, method = "jaccard")
+
+
+# make a data frame from the sample_data
+sampledf <- data.frame(sample_data(physeq.trans))
+
+
+library(vegan)
+dis <- vegdist(study.bray)
+beta <- betadisper(study.jaccard, sampledf$Species, sqrt.dist = T)
+permutest(beta)
+(beta.HSD <- TukeyHSD(beta))
+plot(beta.HSD)
+plot(beta)
+plot(beta, ellipse = TRUE, hull = FALSE)
+par(cex.axis=0.4)
+boxplot(beta)
+
+sampledfnoPU<-subset(sampledf, sampledf$Species!="Puaiohi ")
+beta <- betadisper(study.jaccardnoPU, sampledfnoPU$Species, sqrt.dist = T)
+permutest(beta)
+(beta.HSD <- TukeyHSD(beta))
+plot(beta.HSD)
+plot(beta)
+plot(beta, ellipse = TRUE, hull = FALSE)
+par(cex.axis=0.4)
+boxplot(beta)
+
+require(viridis)
+pdf(file = "NMDS_Diet.pdf", width = 7, height = 5)
+plot_ordination(
+  physeq = physeq.trans,
+  ordination = funx.ord.jacP,
+  axes = c(1,2), 
+  color = "Foraging.Guild", 
+  title = "NMDS of Dietary MOTUs") +
+ # scale_color_viridis_d()+
+  geom_point(aes(color = Foraging.Guild), size = 2.5) +
+  #scale_shape_manual(values = 0:7) +
+  theme_bw() +
+  stat_ellipse(fill="Foraging.Guild") + geom_jitter()
+dev.off()
+
+
+################## BIPARTITE NETWORK AND FOOD WEB #####################
+######## use package bipartite
+#install.packages('bipartite')
+require(bipartite)
+
+######## CONVERT PHYLOSEQ MOTU TABLE AND TAX TABLE INTO BIPARTITE INTERACTION MATRIX 
+merged_birds_Order<-tax_glom(physeq = mergedspp, taxrank = "Order")
+merged.motus<-as.data.frame(merged_birds_Order@otu_table)
+merged.tax<-as.matrix((tax_table(merged_birds_Order)))
+merged.tax<-data.frame(merged.tax[,1:4])
+colnames(merged.motus)<-merged.tax[,4]
+
+interactions<-as.matrix(merged.motus)
+t.interactions <- t(interactions)
+t.interactions <- as.data.frame(t.interactions)
+
+#Visualize web
+#pdf(file = 'FinalBipartite Network.pdf', width = 16, height = 13)
+plotweb(sortweb(t.interactions, sort.order="inc"), text.rot = 90, labsize = 0.7)
+#dev.off()
+visweb(sortweb(interactions, sort.order="inc"), type ="nested")
+
+#Null model comparison
+#To test network metrics (e.g. H2 specialization index) against the Vazquez null
+Iobs <- networklevel(web = t.interactions, index = "H2") #0.217
+nulls <- nullmodel(web=t.interactions, N=1000, method='vaznull') # takes a while!
+Inulls <- sapply(nulls, networklevel, index="H2")
+plot(density(Inulls), xlim=c(0, 1), lwd=2, main="H'2")
+abline(v=Iobs, col="red", lwd=2)
+
+shapiro.test(Inulls) # p = =8,28x10-5, not signif diff from normal distribution
+res <- t.test(Inulls, mu = 0.217) #One sample t-test comparing nulls to observed mean
+#t = -1796.3, df = 99, p-value < 2.2e-16
+
+t.inter.noPU <- t.interactions[,c(1:7,9)]
+
+cmod <- computeModules(t.inter.noPU)
+plotModuleWeb(cmod, labsize = 0.3)
+
+##links per species
+
+net.metrics.links <- networklevel(web = t.interactions, index = "links per species")
+# Make null models 
+nullslinks <- nullmodel(web=t.interactions, N=500, method='r2dtable') # takes a while!
+Inullslinks <- sapply(nullslinks, networklevel, index="links per species")
+plot(density(Inullslinks), xlim=c(0, 1), lwd=2, main="Links per species")
+abline(v=net.metrics.links, col="red", lwd=2,)
+
+shapiro.test(Inullslinks) # p = =8,28x10-5, not signif diff from normal distribution
+res <- t.test(Inullslinks, mu = 2.85) 
+
+obs.spec <- specieslevel(t.interactions, index = "ALLBUTD")
+
+#####piankas overlap######3
+install.packages("EcoSimR")
+library(EcoSimR)
+#merged_birds <-tax_glom(physeq = mergedspp, taxrank = "Order")
+spp.asvs <-as.data.frame(mergedspp@otu_table)
+spp.tax<-as.matrix((tax_table(mergedspp)))
+#merged.tax<-data.frame(merged.tax[,1:4])
+#colnames(spp.asvs)<-merged.tax
+aks <- spp.asvs[1:2,]
+ekwhite <- spp.asvs[c(1,9), ]
+ikwhite <- spp.asvs[c(2,9),]
+aniwhite <- spp.asvs[c(3,9),]
+apwhite <- spp.asvs[c(4,9),]
+iwwhite <- spp.asvs[c(5,9),]
+kawhite <- spp.asvs[c(6,9),]
+kaewhite <- spp.asvs[c(7,9),]
+apiw <- spp.asvs[c(4,5),]
+ekiw <- spp.asvs[c(1,5),]
+ikani <- spp.asvs[c(2,3),]
+
+pianka(m = spp.asvs) #0.1155
+pianka(m=aks) #0.2059
+pianka(ekwhite) #0.0068
+pianka(m=ikwhite) #0.0646
+pianka(aniwhite) #0.4126
+pianka(apwhite) #0.0113
+pianka(iwwhite)#0.2555
+pianka(kawhite) #0.0016
+pianka(kaewhite) #0.0088
+pianka(apiw) #0.1099
+pianka(ekiw) #0.097
+pianka(ikani) #0.4297
+
+
+
+pian <- niche.overlap(spp.asvs, method = "levins")
 
