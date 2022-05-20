@@ -115,6 +115,12 @@ ggplot() +
         legend.key.size = unit(0.9, "cm"),
         legend.text  = element_text(size = 16)) 
 
+sdt = data.table(as(sample_data(kauai), "data.frame"),
+                 TotalReads = sample_sums(kauai), keep.rownames = TRUE)
+setnames(sdt, "rn", "SampleID")
+pSeqDepth = ggplot(sdt, aes(TotalReads)) + geom_histogram() + ggtitle("Sequencing Depth")
+pSeqDepth + facet_wrap(~Species)
+
 #### DECONTAM ####
 
 ###First trying Orourke method on GitHub
@@ -125,36 +131,36 @@ ggplot() +
 library(decontam)
 #install.packages("maditr")
 library(maditr)
-psf <- filter_taxa(kps, function (x) {sum(x > 0) > 1}, prune=TRUE)
+#psf <- filter_taxa(kps, function (x) {sum(x > 0) > 1}, prune=TRUE)
 
-sample_data(psf)$is.neg <- sample_data(psf)$Sample.or.Control =="Control"
+#sample_data(psf)$is.neg <- sample_data(psf)$Sample.or.Control =="Control"
 
-basic_contam.function <- function(threshold, label){
-  tmp <- isContaminant(psf, method="prevalence", neg="is.neg", threshold=threshold)
-  tmp <- tmp %>% mutate(ASVid=row.names(tmp))
-  tmp %>% mutate(threshold=label) %>% mutate(batch="basic")
-}
+#basic_contam.function <- function(threshold, label){
+ # tmp <- isContaminant(psf, method="prevalence", neg="is.neg", threshold=threshold)
+  #tmp <- tmp %>% mutate(ASVid=row.names(tmp))
+  #tmp %>% mutate(threshold=label) %>% mutate(batch="basic")
+#}
 
-cp_basic01 <- basic_contam.function(0.1, "0.1")
-cp_basic02 <- basic_contam.function(0.2, "0.2")
-cp_basic03 <- basic_contam.function(0.3, "0.3")
-cp_basic05 <- basic_contam.function(0.5, "0.5")
+#cp_basic01 <- basic_contam.function(0.1, "0.1")
+#cp_basic02 <- basic_contam.function(0.2, "0.2")
+#cp_basic03 <- basic_contam.function(0.3, "0.3")
+#cp_basic05 <- basic_contam.function(0.5, "0.5")
 
-basic_contam.prev <- rbind(cp_basic01, cp_basic02, cp_basic03, cp_basic05)
-rm(cp_basic01, cp_basic02, cp_basic03, cp_basic05)
+#basic_contam.prev <- rbind(cp_basic01, cp_basic02, cp_basic03, cp_basic05)
+#rm(cp_basic01, cp_basic02, cp_basic03, cp_basic05)
 
-basic_contam_table <- basic_contam.prev %>% 
-  group_by(threshold, contaminant) %>%
-  tally() %>% 
-  dcast(., threshold~contaminant, value.var = "n")
+#basic_contam_table <- basic_contam.prev %>% 
+ # group_by(threshold, contaminant) %>%
+ # tally() %>% 
+ # dcast(., threshold~contaminant, value.var = "n")
 
-ggplot(data = basic_contam.prev %>% filter(threshold=="0.1"), aes(p)) + 
-  geom_histogram(bins=100, color='black', fill="gray50") +
-  theme_bw() +
-  theme(axis.text = element_text(size=14),
-        axis.title = element_text(size=15)) +
+#ggplot(data = basic_contam.prev %>% filter(threshold=="0.1"), aes(p)) + 
+ # geom_histogram(bins=100, color='black', fill="gray50") +
+  #theme_bw() +
+  #theme(axis.text = element_text(size=14),
+    #    axis.title = element_text(size=15)) +
   #geom_vline(xintercept = 0.2, color="red", linetype="dashed") +
-  labs(x="decontam Score", y="Number ASVs")
+  #labs(x="decontam Score", y="Number ASVs")
 
 ##Having some trouble following along with this may come back, gonna use my method
 
@@ -213,9 +219,6 @@ rm(contamdf.prev, contamdf.prev05)
 # Just checking which SAMPLES are likely to be removed later based on low nr of reads
 table(sample_sums(kps.sample) < 1000)
 which(sample_sums(kps.sample) < 1000)
-table(sample_sums(kps.sample) < 500)
-which(sample_sums(kps.sample) < 500)
-
 head(tax_table(kps.sample))
 
 kps.sample <- subset_taxa(kps.sample, Phylum!= "Chordata")
@@ -265,7 +268,7 @@ tdt[(TotalCounts <= 1), .N]
 # How many doubletons?
 tdt[(TotalCounts <= 5), .N]
 #
-tdt[(TotalCounts <= 2), .N]
+tdt[(TotalCounts <= 9), .N]
 # taxa cumulative sum
 taxsum = tdt[, .N, by = TotalCounts]
 setkey(taxsum, TotalCounts)
@@ -295,8 +298,8 @@ which(sample_sums(kps.sample )< 500)
 sample_sums(kps.sample)[order(-sample_sums(kps.sample))]
 #kps.clean1 <- prune_samples(sample_sums(kps.sample) >= 100, kps.sample)
 
-kps.clean <- prune_samples(sample_sums(kps.sample) >= 1000, kps.sample)
-kps.clean <- prune_taxa(taxa_sums(kps.clean) > 0, kps.clean)
+kps.clean <- prune_samples(sample_sums(kps.sample) >= 1000, kps.sample) #removes samples with less than 1000 reads
+kps.clean <- prune_taxa(taxa_sums(kps.clean) > 9, kps.clean) #removes ASVs with that occur in less than to samples
 kps.clean
 
 hist(sample_sums(kps.sample)[order(-sample_sums(kps.sample))], breaks=20)
@@ -342,6 +345,7 @@ ggplot(data=df, aes(x=Index, y=LibrarySizeFilt, color=Island)) +
 
 df = data.frame(nreads = sort(taxa_sums(kps.clean), TRUE), sorted = 1:ntaxa(kps.clean), 
                 type = "OTUs")
+
 df = rbind(df, data.frame(nreads = sort(sample_sums(kps.clean), TRUE), 
                           sorted = 1:nsamples(kps.clean), type = "Samples"))
 
@@ -352,37 +356,42 @@ ggplot(df, aes(x = sorted, y = nreads)) +
   facet_wrap(~type, 1, scales = "free") + 
   theme_bw()
 
-###Need to get only Kauai samples
-
-kps <- prune_samples(sample_data(kps.clean)$Island == "Kauai", kps.clean)
+#Need to get only Kauai samples
+kps.clean <- subset_taxa(kps.clean, Phylum!= "Chordata")
+kauai <- prune_samples(sample_data(kps.clean)$Island == "Kauai", kps.clean)
 #kps.single <- prune_samples(sample_data(kps.single)$Island == "Kauai", kps.single)
 
 ##make sure only samples are in data set
 
-kps <- prune_samples(sample_data(kps)$Sample.or.Control == "Sample", kps)
+kauai <- prune_samples(sample_data(kauai)$Sample.or.Control == "Sample", kauai)
 
 # Transform to RELATIVE ABUNDANCES for weighted Unifrac and bray-curtis 
 # since they are sensitive to differences in total counts. 
 kps
-kps.clean.rel <- transform_sample_counts(kps, function(x) x / sum(x))
+kps.clean.rel <- transform_sample_counts(kps.clean, function(x) x / sum(x))
 kps.clean.rel
+
+kauai.rel <- transform_sample_counts(kauai, function(x) x / sum(x))
 
 ###############################################################
 ### RAREFY ### 
 
 set.seed(386)
-kps.clean.R = rarefy_even_depth(kps, sample.size = min(sample_sums(kps)))
+kps.clean.R = rarefy_even_depth(kps.clean, sample.size = min(sample_sums(kps.clean)))
 kps.clean.R
-get_taxa_unique(kps, "Phylum")
-get_taxa_unique(kps, "Class")
+
+kauai.R <- rarefy_even_depth(kauai, sample.size = min(sample_sums(kauai)))
+get_taxa_unique(kps.clean, "Phylum")
+get_taxa_unique(kps.clean, "Class")
 
 # Top otus
 # class 20
-top20otus = names(sort(taxa_sums(kps), TRUE)[1:20])
-kps.clean20 <- prune_taxa(top20otus, kps) 
+top20otus = names(sort(taxa_sums(kps.clean), TRUE)[1:20])
+kps.clean20 <- prune_taxa(top20otus, kps.clean) 
 tax_table(kps.clean20)
 
-metacoi <- as.data.frame(sample_data(kps)) 
+metacoi <- as.data.frame(sample_data(kps.clean)) 
+metakauai <- as.data.frame(sample_data(kauai))
 
 rm(basic_contam_table,basic_contam.prev,cp_basic01,cp_basic02,cp_basic03,cp_basic05)
 rm(kps.clean1, kps.single,p)
